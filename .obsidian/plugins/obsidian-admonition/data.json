@@ -1,0 +1,118 @@
+{
+  "userAdmonitions": {
+    "proof": {
+      "type": "proof",
+      "color": "153, 111, 251",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-arrow-right-from-line"
+      },
+      "command": false,
+      "title": "Proof.",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "remark": {
+      "type": "remark",
+      "color": "233, 155, 155",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-megaphone"
+      },
+      "command": false,
+      "title": "Remark.",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "def": {
+      "type": "def",
+      "color": "117, 184, 134",
+      "icon": {
+        "name": "book",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Definition.",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "theorem": {
+      "type": "theorem",
+      "color": "148, 175, 255",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-triangle"
+      },
+      "command": false,
+      "title": "Theorem.",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "note": {
+      "type": "note",
+      "color": "#7d7d7d",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-sticky-note"
+      },
+      "command": false,
+      "title": "Note.",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "corollary": {
+      "type": "corollary",
+      "color": "144, 254, 186",
+      "icon": {
+        "name": "chevron-down",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Corollary.",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "lemma": {
+      "type": "lemma",
+      "color": "148, 248, 255",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-chevron-right"
+      },
+      "command": false,
+      "title": "Lemma",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "10.2.0",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": false
+  },
+  "icons": [
+    "octicons",
+    "rpg"
+  ],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.7b88c4"
+}

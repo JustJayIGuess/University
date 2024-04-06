@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "cdaa152e6a255945",
+    "type": "split",
+    "children": [
+      {
+        "id": "c85c3fddd795c03d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fe427d9ab8563af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "First Year/Sem 1/MATH2222/Divisibility Proofs and the Fundamental Theorem of Arithmetic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6edfbf638cff10c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd078083ece301e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3a1f856a4b9ccab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "9f21e21c22d7704e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "95450bf14715c00c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "9d3862145b28461c",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 215.50124740600586
+  },
+  "right": {
+    "id": "3fccd042b1301380",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5d5d1c7d085574f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c0756e55c6d3875",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "First Year/Sem 1/MATH2222/Divisibility Proofs and the Fundamental Theorem of Arithmetic.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a7eece5f3f8bf947",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "First Year/Sem 1/MATH2222/Divisibility Proofs and the Fundamental Theorem of Arithmetic.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bc06c6f3031b6d78",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1f7f56375e350a3b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "First Year/Sem 1/MATH2222/Divisibility Proofs and the Fundamental Theorem of Arithmetic.md"
+              }
+            }
+          },
+          {
+            "id": "2668aa29e2c42979",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5afa6a18d0f817aa",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "4fe427d9ab8563af",
+  "lastOpenFiles": [
+    "First Year/Sem 1/MATH2222/MATH2222.md",
+    "First Year/Sem 1/MATH2222/Modular Arithmetic.md",
+    "First Year/Sem 1/MATH2222/Divisibility Proofs and the Fundamental Theorem of Arithmetic.md",
+    "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
+    "First Year/Sem 1/MATH1115/MATH1115.md",
+    "First Year/Sem 1/MATH1115/Limits.md",
+    "First Year/Sem 1/MATH1115/Differentiation.md",
+    "First Year/Sem 1/MATH1115/attachments/Rolles Theorem.excalidraw.md",
+    "First Year/Sem 1/MATH2222/attachments/Counting in Finite Sets Stars and Bars.excalidraw.md",
+    "First Year/Sem 1/MATH2222/Seminar - q-deformed Rational Numbers.md",
+    "First Year/Sem 1/MATH2222/attachments/Seminar - q-deformed Rational Numbers 2024-03-27 14.04.38.excalidraw.md",
+    "First Year/Sem 1/COMP1130/Lambda Calculus.md",
+    "First Year/Sem 1/MATH1115/Complex Vectors.md",
+    "First Year/Sem 1/MATH1115/Complex Numbers.md",
+    "First Year/Sem 1/MATH1115/Applications of Matrix Transformations.md",
+    "First Year/Sem 1/MATH1115/Matrix Transformations.md",
+    "First Year/Sem 1/COMP1130/COMP1130.md",
+    "First Year/Sem 1/MATH1115/Elementary Matrices and Square Matrix Theorems.md",
+    "First Year/Sem 1/MATH1115/Infinite Sequences.md",
+    "First Year/Sem 1/MATH1115/Linear Algebra.md",
+    "First Year/Sem 1/MATH1115/Operations on Vectors and Matrices.md",
+    "First Year/Sem 1/MATH1115/Inverses and the Identity Matrix.md",
+    "First Year/Sem 1/MATH1115/Theorems of Continuity.md",
+    "First Year/Sem 1/MATH1115/Least Upper Bounds.md",
+    "First Year/Sem 1/MATH2222/attachments/Modular Arithmetic 2024-03-20 13.51.30.excalidraw.md",
+    "First Year/Sem 1/MATH2222/attachments",
+    "First Year/Sem 1/MATH1115/attachments/Complex Numbers 2024-03-20 12.46.30.excalidraw.md",
+    "Untitled.canvas",
+    "First Year/Sem 1/MATH1115/attachments",
+    "First Year/Sem 1/PHYS1101/attachments",
+    "First Year/Sem 1/COMP1130",
+    "Excalidraw",
+    "First Year/Sem 1/MATH1115/Calculus - Spivak_text.pdf",
+    "First Year/Sem 1/MATH1115/Calculus - Spivak_text.pdf.crdownload",
+    "First Year/Sem 1/MATH1115/Calculus (4th ed.) - Spivak, Michael_8039.pdf",
+    "First Year/Sem 1/PHYS1101",
+    "First Year/Sem 1/MATH2222",
+    "Excalidraw/Drawing 2024-02-17 12.35.44.excalidraw.png",
+    "Physics/Notes/4.2 Quantum Theory/Physics Investigation Planning.canvas",
+    "Physics/Notes/3.2 Electromagnetism/attachments/transformers_PNG76.png",
+    "Physics/Notes/3.2 Electromagnetism/attachments/Pasted image 20231011101306.png",
+    "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
+    "Physics/Notes/3.2 Electromagnetism/attachments/Pasted image 20231003185029.png",
+    "Chemistry/Periodic Table.png",
+    "Physics/Notes/4.3 Standard Model/attachments/Pasted image 20230823105703.png",
+    "Physics/Notes/4.3 Standard Model/attachments/Pasted image 20230823105408.png",
+    "Physics/Notes/4.3 Standard Model/attachments/Pasted image 20230823103927.png",
+    "Physics/Notes/4.3 Standard Model/attachments/Pasted image 20230823102944.png",
+    "Applications/Breakthrough Challenge Planning.canvas",
+    "Japanese/Exam Response Planning.canvas",
+    "Chemistry/Assignments/Chem Research Investigation Planning.canvas"
+  ]
+}

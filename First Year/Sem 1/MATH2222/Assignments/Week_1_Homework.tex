@@ -1,0 +1,218 @@
+\documentclass{amsart}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath,amsfonts,amssymb, amsthm, enumerate}
+\title{MATH2222 Week 1 Homework}
+\author{Jaidyn Johnston}
+\date{February 2024}
+
+\begin{document}
+\maketitle
+\begin{enumerate}
+    \item \textbf{Prove that $\sqrt{13}$ is irrational.}
+\end{enumerate}
+This can be proven by contradiction.\\
+Suppose that $\sqrt{13}$ is indeed rational. This implies that it can be written as a ratio of two integers, $a$ and $b$ (with $b\neq 0$), in some simplest form such that $a$ and $b$ share no common factors, i.e.,
+$$
+\exists a,b\in \mathbb{Z}, b\neq 0, \textrm{ such that } \sqrt{13} = \frac{a}{b}
+$$
+Begin by squaring both sides and isolating $a$.
+\begin{align*}
+13 &= \frac{a^{2}}{b^{2}}\\
+a^{2} &= 13b^{2}\tag{1}
+\end{align*}
+This shows that $a^{2}$ is divisible by 13. As 13 is prime, it can be further concluded that $a$ is also divisible by 13. Therefore, $a$ may be expressed as some integer $k$ multiplied by 13.
+$$
+\textrm{let }a = 13k\textrm{, for some } k\in\mathbb{Z}
+$$
+Substituting this into (1) and expanding,
+\begin{align*}
+    (13k)^{2} &= 13b^{2}\\
+    13^{2}k^{2} &= 13b^{2}\\
+    b^{2} &= 13k^{2}
+\end{align*}
+We now have a similar situation to (1); the same reasoning can be applied to show that $b$ must be divisible by 13.\\
+However, this means that both $a$ and $b$ are divisible by 13, contradicting the initial assumption that $\frac{a}{b}$ is in simplest form. Therefore, $\sqrt{13}$ is irrational.\qed
+\\
+\begin{enumerate}
+    \item [(2)] \textbf{Let }$\mathbf{f : X\longrightarrow Y}$\textbf{ be a function and let }$\mathbf{A}$\textbf{ and }$\mathbf{B}$\textbf{ be subsets of }$\mathbf{X}$.
+    \begin{itemize}
+        \item [a)] \textbf{Prove that }$\mathbf{f(A\cup B)\subset f(A)\cup f(B)}$.
+    \end{itemize}
+\end{enumerate}
+We will prove more strongly that $\mathbf{f(A\cup B) = f(A)\cup f(B)}$; if this is proven it follows that the original statement is also true.\\
+First, note that the set union between sets $A$ and $B$ can be written as,
+$$
+A\cup B = \left\{x \mid x\in A\textrm{ or }x\in B\right\},
+$$
+but also (though generally unhelpfully) as,
+$$
+A\cup B = \left\{x \mid x\in (A\cup B) \right\},
+$$
+as for any set $A$ it holds that $A = \left\{x \mid x\in A\right\}$.
+This indicates that the constraint ($x\in A\textrm{ or }x\in B$) is equivalent to the constraint $x\in (A\cup B)$.\\
+Now to prove the original statement, consider the relevant images.
+\begin{align*}
+    f(A) &= \left\{f(x) \mid x\in A \right\},\\
+    f(B) &= \left\{f(x) \mid x\in B \right\},\\
+    f(A\cup B) &= \left\{f(x) \mid x\in (A\cup B) \right\}
+\end{align*}
+Note that $f(x)$ implicitly represents the set of all $f(x)\in Y$, the codomain.\\
+From this, by the definition of the set union, we have,
+$$
+f(A)\cup f(B) = \left\{f(x) \mid x\in A\textrm{ or }x\in B \right\},
+$$
+or equivalently, as outlined previously,
+$$
+f(A)\cup f(B) = \left\{f(x) \mid x\in (A\cup B) \right\}.
+$$
+This, however, is precisely the definition of $f(A\cup B)$, therefore,
+$$
+\mathbf{f(A\cup B) = f(A)\cup f(B)}.
+$$\qed
+
+\begin{enumerate}
+    \item []
+    \begin{itemize}
+        \item [b)] \textbf{Prove that }$\mathbf{f(A\cap B)\subset f(A)\cap f(B)}$.
+    \end{itemize}
+\end{enumerate}
+Begin by considering the image of the intersection of the two sets.
+$$
+f(A\cap B) = \left\{f(x) \mid x\in (A\cap B) \right\}
+$$
+Similarly to the previous proof, if $x$ is in the set $A\cap B$, then it is, by definition, both in the sets $A$ and $B$. Therefore,
+$$
+f(A\cap B) = \left\{f(x) \mid x\in A\textrm{ and }x\in B \right\}.
+$$
+Once again by definition of the set intersection, this is equivalent to,
+$$
+f(A\cap B) = \left\{f(x) \mid x\in A \right\}\cap \left\{f(x) \mid x\in B \right\},
+$$
+which is precisely the definition of the set $f(A)\cap f(B)$, therefore the two are equivalent.\qed
+\\
+\begin{enumerate}
+    \item [3] \textbf{Prove the following.}
+    \begin{itemize}
+        \item [a)] \textbf{If }$\mathbf{f}$\textbf{ and }$\mathbf{g}$\textbf{ are bounded, then }$\mathbf{f+g}$\textbf{ is bounded}.
+    \end{itemize}
+\end{enumerate}
+From the fact that both $f$ and $g$ are bounded, we know that there exists two real numbers $N_{f}$ and $N_{g}$ for which $|f(x)|<N_{f}$ and $|g(x)|<N_{g}$ hold for all $x\in \mathbb{R}$.\\
+Combining these inequalities,
+$$
+|f(x)| + |g(x)| < N_{f} + N_{g}.
+$$
+By the triangle inequality,
+\begin{gather*}
+    |f(x) + g(x)| \le |f(x)| + |g(x)| < N_{f} + N{g}\\
+    |f(x) + g(x)| < N_{f} + N{g}
+\end{gather*}
+We may now define a new bound $N = N_{f} + N_{g}$ and notice that,
+\begin{align*}
+|f(x) + g(x)| &< N\\
+|(f+g)(x)| &< N
+\end{align*}
+We have found a bound for $f+g$, therefore it is bounded.\qed
+\\
+
+\begin{enumerate}
+    \item []
+    \begin{itemize}
+        \item [b)] \textbf{If }$\mathbf{f}$\textbf{ and }$\mathbf{g}$\textbf{ are bounded, then }$\mathbf{fg}$\textbf{ is bounded}.
+    \end{itemize}
+\end{enumerate}
+
+Once again from the fact that both $f$ and $g$ are bounded, we know that there exists two real numbers $N_{f}$ and $N_{g}$ for which $|f(x)|<N_{f}$ and $|g(x)|<N_{g}$ hold for all $x\in \mathbb{R}$.\\
+As all values are positive in these inequalities, the two can be multiplied,
+\begin{align*}
+|f(x)||g(x)| &< N_{f}N_{g}\\
+|f(x)g(x)| &< N_{f}N_{g}\\
+|(fg)(x)| &< N_{f}N_{g}.
+\end{align*}
+Defining a new bound $N = N_{f}N_{g}$ shows that the function $fg$ is in fact bounded.
+$$
+|(fg)(x)| < N
+$$
+\qed
+\\
+
+\begin{enumerate}
+    \item []
+    \begin{itemize}
+        \item [c)] \textbf{If }$\mathbf{f+g}$\textbf{ is bounded, then }$\mathbf{f}$\textbf{ and }$\mathbf{g}$\textbf{ are bounded}.
+    \end{itemize}
+\end{enumerate}
+
+This can be disproved by counterexample.\\
+Consider the functions $f(x) = x$ and $g(x) = -x$. As $x\longrightarrow \infty$, $f(x)\longrightarrow\infty$ and $g(x)\longrightarrow -\infty$, so $f$ and $g$ are unbounded.\\
+The function $(f+g)(x) = f(x)+g(x) = x + (-x) = 0$, however is bounded by any positive and non-zero real number $\epsilon$, i.e.,
+$$
+|(f+g)(x)| = |0| = 0 < \epsilon\quad \forall x\in\mathbb{R}.
+$$
+Therefore, there exists at least one pair of functions $f$ and $g$ such that they are individually unbounded, while their sum is bounded.\qed
+\\
+
+\begin{enumerate}
+    \item []
+    \begin{itemize}
+        \item [d)] \textbf{If }$\mathbf{fg}$\textbf{ is bounded, then }$\mathbf{f}$\textbf{ and }$\mathbf{g}$\textbf{ are bounded}.
+    \end{itemize}
+\end{enumerate}
+
+This can be disproved by counterexample.\\
+Consider the functions $f(x) = \frac{1}{x}$ and $g(x) = x$. $f(x)$ has a vertical asymptote at $x=0$, and so cannot be bounded, and $g(x)$ is unbounded as already shown in the previous proof.\\
+Taking their product, however,
+$$
+(fg)(x) = f(x)g(x) = \left(\frac{1}{x}\right)x = 1.
+$$
+This can be bounded by any real number greater than 1, e.g.,
+$$
+|(fg)(x)| = |1| = 1 < 2\quad\forall x\in\mathbb{R}.
+$$
+Therefore, there exists at least one pair of functions for which the product is bounded, while the individual functions are unbounded.
+\\
+
+\begin{enumerate}
+    \item []
+    \begin{itemize}
+        \item [e)] \textbf{If }$\mathbf{f+g}$\textbf{ is bounded and }$\mathbf{fg}$\textbf{ is bounded, then }$\mathbf{f}$\textbf{ and }$\mathbf{g}$\textbf{ are bounded}.
+    \end{itemize}
+\end{enumerate}
+
+(Collaboration statement: after being stuck on this question, I spoke to Sam Roberts about the question, and eventually came to this solution)
+\\
+This can be proven directly.\\
+As $f+g$ is bounded and $fg$ is bounded, the following inequalities may be written, with $f+g$ bounded by $a$ and $fg$ bounded by b. Note that $f$ and $g$ here stand for $f(x)$ and $g(x)$ respectively.
+\begin{align}
+    |f+g| < a\\
+    |fg| < b
+\end{align}
+Note that if $fg \ge 0$, then $fg = |fg| < b$, and that if $fg \le 0$, then $fg < |fg| < b \Rightarrow fg < b$. Therefore it is true in general that $fg < b$. This further means that $fg + k(x) = b\Rightarrow fg = b - k(x)$ for some bounded, strictly positive function $k:X\longrightarrow Y$.\\
+Now take the square of the first inequality.
+\begin{align*}
+|f+g|^{2} &< a^{2}\\
+f^{2} + 2fg + g^{2} &< a^{2}
+\end{align*}
+Substituting $fg = b - k(x)$,
+\begin{align*}
+f^{2} + 2(b - k(x)) + g^{2} < a^{2}\\
+f^{2} + g^{2} < a^{2} + 2k(x) - 2b
+\end{align*}
+Adding to this two times equation (2),
+\begin{align*}
+f^{2} + 2|fg| + g^{2} < a^{2} + 2k(x) - 2b + 2b\\
+|f|^{2} + 2|fg| + |g|^{2} < a^{2} + 2k(x)\\
+(|f| + |g|)^{2} < a^{2} + 2k(x)
+\end{align*}
+All terms are positive, so,
+\begin{align*}
+|f| + |g| < \sqrt{a^{2} + 2k(x)}.
+\end{align*}
+The function $k$ is bounded by definition, so $|k(x)| < c\Rightarrow k(x) < c$ (as $k(x)$ is strictly positive) for some maximum value $c$, over all $x$. Therefore the right hand side of the above inequality may be replaced by $\sqrt{a^{2} + 2c}$, giving a constant upper bound for $|f| + |g|$.
+$$
+|f| + |g| < \sqrt{a^{2} + 2c}.
+$$
+
+Now, if $f$ were unbounded, then $|f|$ would be unbounded in the positive direction. However, in $|f|+|g|$, $|g|$ may only add to $|f|$, it can be concluded that $|f|+|g|$ must also be unbounded in this case.\\ The same reasoning can be applied to $g$, and so if $f$ or $g$ are unbounded then $|f| + |g|$ must be unbounded also. The contra-positive of this is that $|f|+|g|$ being bounded must imply that both $f$ and $g$ are also bounded.\\
+Therefore, as $|f| + |g|$ may be bounded by $\sqrt{a^2 + 2c}$, then both $f$ and $g$ must be bounded also.\qed
+
+\end{document}
