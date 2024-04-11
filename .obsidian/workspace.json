@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Equivalence Relations.md",
+                "file": "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Equivalence Relations.md",
+                "file": "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Equivalence Relations.md",
+                "file": "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Equivalence Relations.md"
+                "file": "First Year/Sem 1/MATH2222/Counting in Finite Sets.md"
               }
             }
           },
@@ -168,7 +168,9 @@
   },
   "active": "4fe427d9ab8563af",
   "lastOpenFiles": [
+    "First Year/Sem 1/MATH2222/attachments/Counting in Finite Sets Stars and Bars.excalidraw.md",
     "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
+    "First Year/Sem 1/MATH2222/Equivalence Relations.md",
     "First Year/Sem 1/MATH2222/Cardinality, Injection, Surjection and Bijection.md",
     "First Year/Sem 1/MATH2222/Temp.md",
     "First Year/Sem 1/MATH2222/attachments/Seminar - q-deformed Rational Numbers 2024-03-27 14.04.38.excalidraw.md",
@@ -179,7 +181,6 @@
     "First Year/Sem 1/MATH1115/Limits.md",
     "First Year/Sem 1/MATH1115/Differentiation.md",
     "First Year/Sem 1/MATH1115/attachments/Rolles Theorem.excalidraw.md",
-    "First Year/Sem 1/MATH2222/attachments/Counting in Finite Sets Stars and Bars.excalidraw.md",
     "First Year/Sem 1/MATH2222/Seminar - q-deformed Rational Numbers.md",
     "First Year/Sem 1/COMP1130/Lambda Calculus.md",
     "First Year/Sem 1/MATH1115/Complex Vectors.md",
@@ -193,7 +194,6 @@
     "First Year/Sem 1/MATH1115/Operations on Vectors and Matrices.md",
     "First Year/Sem 1/MATH1115/Inverses and the Identity Matrix.md",
     "First Year/Sem 1/MATH1115/Theorems of Continuity.md",
-    "First Year/Sem 1/MATH1115/Least Upper Bounds.md",
     "First Year/Sem 1/MATH2222/attachments",
     "Untitled.canvas",
     "First Year/Sem 1/MATH1115/attachments",
