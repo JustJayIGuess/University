@@ -73,4 +73,3 @@ If $(x,y)\in E$, we can write $x\sim_{E}y$, or if there is only one relation bei
 >Equivalence relations **partition** $S$ into classes, so,
 >$$\begin{align*}S &= \bigsqcup_{\alpha}S_{\alpha},\ S_\alpha\subseteq S\end{align*}$$
 > Conversely, given a partition of $S$, we can always define an equivalence relation $x\sim y$ if $x,y$ are in the same subset of the partition (note that $x,x$ are in the same partition, $x,y$ being in the partition implies $y,x$ is in the partition, and $x\sim y$ with $y\sim z$ implies that $x\sim z$).
-
