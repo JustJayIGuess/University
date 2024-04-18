@@ -1,4 +1,3 @@
-
 >[!proof]
 >Proof of $\det(A) = ad-bc$
 >Note that the row operation of adding one row to another does not alter the area of the parallelogram.

@@ -6,4 +6,5 @@
 - [[Infinite Sequences]]
 - [[Theorems of Continuity]]
 - [[Least Upper Bounds]]
-- [[Differentiation]]
+- [[Differentiation (MATH1115)]]
+- [[Inverses Functions (MATH1115)]]

@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
+                "file": "First Year/Sem 1/MATH1115/Inverses Functions (MATH1115).md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "74b079606f161400",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
+                "file": "First Year/Sem 1/MATH1115/Inverses Functions (MATH1115).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
+                "file": "First Year/Sem 1/MATH1115/Inverses Functions (MATH1115).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Counting in Finite Sets.md"
+                "file": "First Year/Sem 1/MATH1115/Inverses Functions (MATH1115).md"
               }
             }
           },
@@ -168,32 +176,32 @@
   },
   "active": "4fe427d9ab8563af",
   "lastOpenFiles": [
-    "First Year/Sem 1/MATH2222/attachments/Counting in Finite Sets Stars and Bars.excalidraw.md",
-    "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
+    "First Year/Sem 1/MATH1115/Inverses Functions (MATH1115).md",
+    "First Year/Sem 1/MATH1115/MATH1115.md",
+    "First Year/Sem 1/MATH1115/Functions (MATH1115).md",
+    "First Year/Sem 1/COMP1130/COMP1130.md",
+    "First Year/Sem 1/PHYS1101/PHYS1101.md",
+    "First Year/Sem 1/MATH2222/MATH2222.md",
+    "First Year/Sem 1/MATH1115/Calculus.md",
+    "First Year/Sem 1/MATH1115/Differentiation (MATH1115).md",
+    "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
+    "First Year/Sem 1/MATH2222/attachments/The Rational Numbers (MATH2222) 2024-04-16 13.09.21.excalidraw.md",
+    "First Year/Sem 1/MATH1115/Coordinates and Basis.md",
+    "First Year/Sem 1/MATH1115/Vector spaces and Subspaces.md",
+    "First Year/Sem 1/MATH2222/Divisibility Proofs and the Fundamental Theorem of Arithmetic.md",
     "First Year/Sem 1/MATH2222/Equivalence Relations.md",
     "First Year/Sem 1/MATH2222/Cardinality, Injection, Surjection and Bijection.md",
+    "First Year/Sem 1/MATH1115/Least Upper Bounds.md",
+    "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
+    "First Year/Sem 1/MATH1115/Complex Numbers.md",
+    "First Year/Sem 1/MATH1115/Determinants.md",
+    "First Year/Sem 1/MATH2222/attachments/Counting in Finite Sets Stars and Bars.excalidraw.md",
     "First Year/Sem 1/MATH2222/Temp.md",
     "First Year/Sem 1/MATH2222/attachments/Seminar - q-deformed Rational Numbers 2024-03-27 14.04.38.excalidraw.md",
-    "First Year/Sem 1/MATH2222/Divisibility Proofs and the Fundamental Theorem of Arithmetic.md",
-    "First Year/Sem 1/MATH2222/MATH2222.md",
     "First Year/Sem 1/MATH2222/Modular Arithmetic.md",
-    "First Year/Sem 1/MATH1115/MATH1115.md",
     "First Year/Sem 1/MATH1115/Limits.md",
-    "First Year/Sem 1/MATH1115/Differentiation.md",
     "First Year/Sem 1/MATH1115/attachments/Rolles Theorem.excalidraw.md",
     "First Year/Sem 1/MATH2222/Seminar - q-deformed Rational Numbers.md",
-    "First Year/Sem 1/COMP1130/Lambda Calculus.md",
-    "First Year/Sem 1/MATH1115/Complex Vectors.md",
-    "First Year/Sem 1/MATH1115/Complex Numbers.md",
-    "First Year/Sem 1/MATH1115/Applications of Matrix Transformations.md",
-    "First Year/Sem 1/MATH1115/Matrix Transformations.md",
-    "First Year/Sem 1/COMP1130/COMP1130.md",
-    "First Year/Sem 1/MATH1115/Elementary Matrices and Square Matrix Theorems.md",
-    "First Year/Sem 1/MATH1115/Infinite Sequences.md",
-    "First Year/Sem 1/MATH1115/Linear Algebra.md",
-    "First Year/Sem 1/MATH1115/Operations on Vectors and Matrices.md",
-    "First Year/Sem 1/MATH1115/Inverses and the Identity Matrix.md",
-    "First Year/Sem 1/MATH1115/Theorems of Continuity.md",
     "First Year/Sem 1/MATH2222/attachments",
     "Untitled.canvas",
     "First Year/Sem 1/MATH1115/attachments",

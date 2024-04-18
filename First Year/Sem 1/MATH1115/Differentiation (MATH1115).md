@@ -84,6 +84,3 @@
 >$$\begin{align*}h'(x) &= f'(x) - k.\end{align*}$$
 >So,
 >$$\begin{align*}h'(c)=0&= f'(c)-k \\ f'(c)&= k \\ f'(c) &= \frac{f(b)-f(a)}{b-a}. \\ \ \tag*{$\blacksquare$}\end{align*}$$
-
-
-
