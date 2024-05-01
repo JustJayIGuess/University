@@ -112,33 +112,153 @@ Now we may prove the binomial coefficient theorem.
 # Combinatorial Proofs
 >[!example]
 >*The chairperson identity*
----
+
 >[!lemma]
 >$$\begin{align*}k \binom{n}{k} &= n \binom{n-1}{k-1}\end{align*}$$
----
+
 >[!proof]
 >Think about choosing a committee of $n$ applicants and appointing a chair of that committee.
 >One way to do this is to first choose the committee, for which there are $\binom{n}{k}$ ways to do this, and then there are $k$ ways to choose the chair, so we have $k \binom{n}{k}$.
 >Another way to do this is to first choose the chair, for which there are $n$ ways to do this, and then there are $\binom{n-1}{k-1}$ ways to fill out the rest of the committee. So we have $n \binom{n-1}{k-1}$. These must therefore be equal.
 >$$\begin{align*}k \binom{n}{k} &= n \binom{n-1}{k-1}\end{align*}$$
 
+---
+
 >[!example]
 >*Sums of Rows of Pascal's Triangle*
----
+
 >[!lemma]
 >$$\begin{align*}\sum\limits_{i=0}^{n} \binom{n}{i} &= 2^{n}\end{align*}$$
----
+
 >[!proof]
 >If we consider expanding the binomial $(1+1)^{n}$, we can see that we will get the sum of a row of pascal's triangle. However we also have $(1+1)^{n} = 2^{n}$
----
+
 >[!proof]
 >If $S$ has $n$ elements, then $\mathcal{P}(S)$ has $2^{n}$ elements. We can also count powerset of $S$ by the size of its elements, so there are $\binom{n}{0}$ elements of size 0, $\binom{n}{1}$ elements of size 1, etc.
 
+---
+
 >[!example]
 >*Sum of Diagonals of Pascal's Triangle*
----
+
 >[!lemma]
 >$$\begin{align*}\sum\limits_{i=0}^{n}\binom{i}{k} &= \binom{n+1}{k+1}\end{align*}$$
----
+
 >[!proof]
 >**Exercise**
+
+# Motivational Problems
+1. How many *derangements* (arrangements where no element is in its initial position) are there in the set of permutations of an $n$ element set.
+2. Roll a six-sided die $n$ times. How likely are we to have rolled each number at least once.
+3. The Euler totient function $\phi(m)$ is the number of positive integers $k$ with $1\le k\le m$ that are relatively prime to $m$, where $m$ is a positive integer. How can we compute $\phi(m)$?
+
+All three of these problems use a concept called the *inclusion-exclusion* principle.
+
+## Euler's Totient Function
+$$\begin{align*}
+\phi(m) &= \left|\left\{k \mid 1\le k\le m,\ gcd(k,m)=1\right\}\right|
+\end{align*}$$
+If $m=p$ is prime, then $\phi(p) = p-1$.
+If $m = p^{r}$, then note that all of $1\le k\le m$ are coprime with $m$ except the multiples of $p$. So then $\phi(p) = p^{r} - \frac{p^{r}}{p} = p^{r} - p^{r-1}$.
+If $m=p^{r}q^{s}$ for distinct primes $p,q$, then we have,
+$$\begin{align*}
+\phi(m) &= m - (\text{multiples of }p) - (\text{multiples of }q) + (\text{multiples of }p\text{ and }q)\\
+&= m - \frac{m}{p} - \frac{m}{q} + \frac{m}{pq},
+\end{align*}$$
+noting that we have to correct for double-counting multiples of $pq$.
+
+## Derangements of an $n$-element set.
+>[!def]
+>A *derangement* of a set is an arrangement where no element is fixed.
+
+>[!question]
+>Is this related to the orbit of the group $S_{n}$?
+
+>[!proof]
+> We would now like to count the number of permutations of an $n$-element set $X = \left\{1,2,\cdots n\right\}$ such that no $i\in S$ is in position $i$.
+> For $i=1,\cdots,n$, let $A_{i} = \left\{\text{permutations that fix }i\right\}$. By definition, a derangement is a permutation that is not in any of $A_{1},\cdots, A_{n}$.
+> So we aim to find $|U - \bigcup_{i=1}^{n}A_{i}|$.
+> 
+> We must then compute $|\bigcap_{i\in S}A_{i}|$ for some $S\subset \left\{1,\cdots,n\right\}$. We then fix the $|S|$ points and permute the remaining. So then,
+> $$\begin{align*}
+> \left|\bigcap_{i\in S}A_{i}\right| &= (n-|S|)!
+> \end{align*}$$
+> **Note that this doesn't depend on $S$, but only on $|S|$; this is useful!**
+> 
+> Using inclusion-exclusion,
+> $$\begin{align*}
+> |U-\bigcup_{i=1}^{n}A_{i}| &= \sum\limits_{S\subset\left\{1,\cdots,n\right\}}(-1)^{|S|}(n-|S|)!\\
+> &= \sum\limits_{k=0}^{n}(-1)^{k}\binom{n}{k}(n-k)!\\
+&= \sum\limits_{k=0}^{n}(-1)^{k} \frac{n!}{k!}\\
+&= n!\sum\limits_{k=0}^{n}\frac{(-1)^{k}}{k!}
+> \end{align*}$$
+> So then the proportion of permutations is $\sum\limits_{k=0}^{n}\frac{(-1)^{k}}{k!}$, which approaches $\frac{1}{e}$ as $n\longrightarrow \infty$. 
+
+# Inclusion-Exclusion
+>[!def]
+>The *inclusion-exclusion* principle is commonly used in the following scenarios:
+>- Finding $|(A\cup B)^{C}| = |U| - |A\cup B|$
+>- Finding $|A\cup B|$
+>The principle states the following.
+>$$\begin{align*}
+|U-(A\cup B)| &= |U| - |A|-|B|+|A\cap B|\\
+|U-(A\cup B\cup C)| &= |U| - |A| - |B| - |C|\\&+ |A\cap B| + |A\cap C| + |B\cap C|\\&- |A\cap B\cap C|
+\end{align*}$$
+>In general, given a universe $U$ and subsets $A_{1},\cdots,A_{n}$, the number $N$ of elements of $U$ that are not in any of $A_{1},\cdots,A_{n}$ is,
+> $$\begin{align*}
+> \sum\limits_{S\subset \left\{1,2,\cdots,n\right\}}(-1)^{|S|}\left|\bigcap_{i\in S}A_{i}\right|
+> \end{align*}$$
+
+>[!proof]
+>We need to show that each $x$ belonging to none of the $A_{i}$ contributes 1 to the sum, and each $x$ belonging to at least one of the $A_{i}$ contributes 0.
+> Note that any $x\in U-(\bigcup_{i=1}^{n}A_{i})$ only contributes to the $S=\varnothing$ term, showing the first part of the proof.
+> Now suppose $x$ belongs to at least one of $A_{i}$. Let $T\subset\left\{1,2,\cdots n\right\}$ be the indices $T = \left\{i \mid x\in A_{i}\right\}$.
+> In the formula, $x$ is counted as $\pm 1$ in every subset of $T$.
+> $x$ contributes 1 when $|S|$ even and $-1$ when $|S|$ odd. So the total contribution of $x$ to the formula is,
+> $$\begin{align*}
+> \sum\limits_{s\subset T}(-1)^{|S|} &= \sum\limits_{k=0}^{|T|}(-1)^{k}\binom{|T|}{k}
+> \end{align*}$$
+> Now note that this is the binomial expansion of,
+> $$\begin{align*}
+> (x+y)^{|T|}\vert_{x=1,y=-1} &= (1-1)^{|T|} = 0.
+> \end{align*}$$
+> Which proves the second part of the proof.
+> $$\begin{align*}
+> \ \tag*{$\blacksquare$}
+> \end{align*}$$
+
+>[!remark]
+>This principle is most useful when the sizes of intersection are much easier to compute than sizes of unions.
+
+---
+
+>[!question]
+>How many  surjective functions are there from $X=\{1,\cdots,k\}$ to $Y=\{1,\cdots,n\}$.
+
+>[!proof]
+>Recall that there are $n^{k}$ possible functions.
+>Consider the functions that are not surjective.
+>So let $A_{i} = \left\{f : X \longrightarrow Y \mid i\not\in \text{image}(f)\right\}$. These sets have some intersections between them. Then note that,
+>$$\bigcup_{i=1}^{n}A_{i},$$
+>is the set of functions $\left\{f : X \longrightarrow Y \mid f\text{ is not surjective}\right\}$.
+>So we would like to find $\left|U - \bigcup_{i=1}^{n}A_{i}\right| = \left\{f : X \longrightarrow Y \mid f\text{ is surjective}\right\}$.
+>Then by inclusion-exclusion,
+>$$
+>\left|U - \bigcup_{i=1}^{n}A_{i}\right| = \sum\limits_{S\in\{1,\cdots,n\}}(-1)^{|S|}\left|\bigcap_{i\in S}A_{i}\right|
+>$$
+>Now note that,
+>
+>
+>$$
+>\bigcap_{i\in S}A_{i} = \left\{f : X \longrightarrow Y \mid j\not\in\text{image}(f)\forall j\in S\right\}.
+>$$
+>So we would like to know how many functions do not have any elements of $S$ in their image. This is $(n-|S|)^{k}$. So then,
+>$$
+>\left|U - \bigcup_{i=1}^{n}A_{i}\right| = \sum\limits_{S\in\{1,\cdots,n\}}(-1)^{|S|}(n-|S|)^{k}.
+>$$
+>However the term in the sum only depends on the size of $S$, not on $S$ itself. A subset with $j$ elements will appear $\binom{n}{j}$ times, so then we have,
+>$$
+>\sum\limits_{i=1}^{n}(-1)^{i}(n-i)^{k}\binom{n}{i}.
+>$$
+>This is our final answer.
+

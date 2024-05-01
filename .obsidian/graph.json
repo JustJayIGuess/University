@@ -8,28 +8,35 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Chemistry  ",
+      "query": "path:\"First Year/Sem 1/MATH1115\"  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:Physics",
+      "query": "path:\"First Year/Sem 1/PHYS1101\"  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "path:English",
+      "query": "path:\"First Year/Sem 1/MATH2222\"  ",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
+    },
+    {
+      "query": "path:\"First Year/Sem 1/COMP1130\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.33219671733996,

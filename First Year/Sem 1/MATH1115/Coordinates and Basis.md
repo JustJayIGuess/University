@@ -32,41 +32,6 @@
 > \end{align*}$$
 > This matrix is invertible, so then every vector may be written as one and only one linear combination of the bases.
 
-# Dimension
->[!def]
->The dimension of $V$ is the number of vectors in a basis. This will be proven to be well-defined later.
-
----
-
->[!example]
->The vector space $M_{2\times2}$ is 4-dimensional, and has the standard basis,
->$$\begin{align*}
-\left\{A_{1},A_{2},A_{3},A_{4}\right\}\\
-A_{1} &= \begin{bmatrix}1 & 0\\0 & 0\end{bmatrix}\\
-A_{2} &= \begin{bmatrix}0 & 1\\0 & 0\end{bmatrix}\\
-A_{3} &= \begin{bmatrix}0 & 0\\1 & 0\end{bmatrix}\\
-A_{4} &= \begin{bmatrix}0 & 0\\0 & 1\end{bmatrix}
-\end{align*}$$
-
----
-
->[!example]
->The vector space $\left\{0\right\}$ is 0-dimensional with basis $\varnothing$.
-
----
-
->[!example]
->$P_{n}$, set of polynomials of $\deg\le n$ is ($n+1$)-dimensional, with basis,
->$$\begin{align*}\left\{1,x,x^{2},\cdots,x^{n}\right\}\end{align*}$$
->This can also be defined with basis,
-> $$\begin{align*}
-> \left\{1,x,\frac{x^{2}}{2},\frac{x^{3}}{6},\cdots,\frac{x^{n}}{n!}\right\}
-> \end{align*}$$
-> This is useful because,
-> $$\begin{align*}
-> \frac{d}{dx}(v_{i}) &= \cases{v_{i-1}\quad i\ge1\\0\ \qquad i=0}
-> \end{align*}$$
-
 # Span
 >[!def]
 >A set of vectors $\left\{v_1,\cdots,v_{r}\right\}$ *spans* $V$ if any $v\in V$ is a linear combination of $v_{1},\cdots,v_{r}$ in at least one way.

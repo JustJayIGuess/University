@@ -335,3 +335,69 @@ Strict:
 (lx.x x)((ly.y) z) -> (lx.x x) z
 				   -> z z
 ```
+
+# Lazy vs Strict
+## Termination
+Consider the lambda, `(ly.z)((lx.x x)(lx.x x))`.
+Using strict evaluation, we will have,
+```
+(ly.z)((lx.x x)(lx.x x)) -> (ly.z)((lx.x x)(lx.x x))
+```
+and this will loop forever.
+Using lazy evaluation, this will terminate.
+```
+(ly.z)((lx.x x)(lx.x x)) -> z
+```
+We *lazily* ignore evaluating the argument as it is not needed.
+
+>[!theorem]
+>If a term has a normal form with respect to non-deterministic evaluation, then it must have a normal form with respect to lazy evaluation. **This does not hold for strict evaluation.**
+
+## Call-by-name and call-by-need
+If we have `(lx.A)B` where `x` appears many times as a free variable in `A`, then lazy evaluation will make many copies of `B`. This is space inefficient.
+Haskell avoids this by implementing *call-by-need* instead of *call-by-name*, where a data structure keeps track of when expressions are needed to be evaluated and this data is shared between all references to it.
+
+## Summary
+### Laziness
+- More efficient when avoiding unused arguments
+- Ability to work with infinitely large objects such as lists and call finite parts of it by need (i.e., ability to work with non-terminating components)
+- More likely to terminate (if it terminates by strict evaluation, it will terminate by laziness also)
+
+### Strictness
+- Easier to implement efficiently
+- Works better with 'side effects' of the program (e.g., states)
+- Often easier to reason about time and space usage
+
+### Example Implementation
+```haskell
+lazy :: Term -> Maybe Term
+lazy term = case term of
+	Var _   -> Nothing
+	Lam _ _ -> Nothing
+	App (Lam x t) u -> subst t x u
+	App t u -> case lazy t of
+		Nothing -> Nothing
+		Just t' -> Just (App t' u)
+
+strict :: Term -> Maybe Term
+strict term = case term of
+	Var _   -> Nothing
+	Lam _ _ -> Nothing
+	App (Lam x t) u -> case strict u of
+		Nothing -> Just (subst t x u)
+		Just u' -> Just (App (Lam x t) u')
+	App t u -> case strict t of
+		Nothing -> Nothing
+		Just t' -> Just (App t' u)
+
+eval :: (a -> Maybe a) -> a -> a
+eval step x = case step x of
+	Nothing -> x
+	Just x' -> eval step x'
+
+lazyReduce :: Term -> Term
+lazyReduce = eval lazy
+
+strictReduce :: Term -> Term
+strictReduce = eval strict
+```

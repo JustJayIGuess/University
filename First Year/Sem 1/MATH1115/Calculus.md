@@ -4,7 +4,8 @@
 - [[Limits]]
 - [[Limits#Continuity in Limits|Continuity in Limits]]
 - [[Infinite Sequences]]
-- [[Theorems of Continuity]]
 - [[Least Upper Bounds]]
 - [[Differentiation (MATH1115)]]
 - [[Inverses Functions (MATH1115)]]
+- [[Integration]]
+- 

@@ -22,4 +22,15 @@
 >$$\begin{align*}
 f^{-1}(B) &= \left\{x\in X \mid f(x)\in B\right\}.
 \end{align*}$$
->This does not require injectivity, however if the function is invertible, $f^{-1}(y_{0})=f^{-1}(\left\{y_{0}\right\})$, where the left $f^{-1}$ is the inverse and the other is the pre-image.
+>This does not require injectivity, however if the function is invertible, $\{f^{-1}(y_{0})\}=f^{-1}(\left\{y_{0}\right\})$, where the left $f^{-1}$ is the inverse and the other is the pre-image.
+
+# Properties of the Inverse
+>[!theorem]
+>If $f$ is continuous and injective, then $f^{-1}$ exists and is continuous.
+
+>[!proof]
+
+
+>[!theorem]
+>If $f$ is differentiable, injective and non-zero at $a$, then $f^{-1}$ exists and is differentiable at $a$ maybe.
+

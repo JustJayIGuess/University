@@ -4,27 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "c85c3fddd795c03d",
+        "id": "b3d02e823a99bed5",
         "type": "tabs",
         "children": [
           {
-            "id": "4fe427d9ab8563af",
+            "id": "b278f87a06d15b4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Inverses Functions (MATH1115).md",
+                "file": "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "74b079606f161400",
+            "id": "41c3fe55e8a4f041",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "First Year/Sem 1/MATH2222/attachments/Pigeonhole Principle 2024-04-30 16.27.53.excalidraw.md"
+              }
             }
           }
         ]
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Inverses Functions (MATH1115).md",
+                "file": "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Inverses Functions (MATH1115).md",
+                "file": "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Inverses Functions (MATH1115).md"
+                "file": "First Year/Sem 1/MATH2222/Graphs (MATH2222).md"
               }
             }
           },
@@ -174,34 +176,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4fe427d9ab8563af",
+  "active": "b278f87a06d15b4a",
   "lastOpenFiles": [
-    "First Year/Sem 1/MATH1115/Inverses Functions (MATH1115).md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-05-01 13.09.18.excalidraw.md",
+    "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
     "First Year/Sem 1/MATH1115/MATH1115.md",
-    "First Year/Sem 1/MATH1115/Functions (MATH1115).md",
-    "First Year/Sem 1/COMP1130/COMP1130.md",
-    "First Year/Sem 1/PHYS1101/PHYS1101.md",
+    "First Year/Sem 1/MATH1115/Rank, Nullity and the Fundamental Matrix Spaces.md",
     "First Year/Sem 1/MATH2222/MATH2222.md",
-    "First Year/Sem 1/MATH1115/Calculus.md",
-    "First Year/Sem 1/MATH1115/Differentiation (MATH1115).md",
-    "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
-    "First Year/Sem 1/MATH2222/attachments/The Rational Numbers (MATH2222) 2024-04-16 13.09.21.excalidraw.md",
-    "First Year/Sem 1/MATH1115/Coordinates and Basis.md",
-    "First Year/Sem 1/MATH1115/Vector spaces and Subspaces.md",
-    "First Year/Sem 1/MATH2222/Divisibility Proofs and the Fundamental Theorem of Arithmetic.md",
-    "First Year/Sem 1/MATH2222/Equivalence Relations.md",
-    "First Year/Sem 1/MATH2222/Cardinality, Injection, Surjection and Bijection.md",
-    "First Year/Sem 1/MATH1115/Least Upper Bounds.md",
+    "First Year/Sem 1/MATH1115/Change of Basis.md",
+    "First Year/Sem 1/MATH1115/Dimension.md",
+    "First Year/Sem 1/MATH2222/Pigeonhole Principle.md",
+    "First Year/Sem 1/MATH2222/attachments/Pigeonhole Principle 2024-04-30 16.27.53.excalidraw.md",
     "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
-    "First Year/Sem 1/MATH1115/Complex Numbers.md",
-    "First Year/Sem 1/MATH1115/Determinants.md",
-    "First Year/Sem 1/MATH2222/attachments/Counting in Finite Sets Stars and Bars.excalidraw.md",
-    "First Year/Sem 1/MATH2222/Temp.md",
-    "First Year/Sem 1/MATH2222/attachments/Seminar - q-deformed Rational Numbers 2024-03-27 14.04.38.excalidraw.md",
-    "First Year/Sem 1/MATH2222/Modular Arithmetic.md",
-    "First Year/Sem 1/MATH1115/Limits.md",
-    "First Year/Sem 1/MATH1115/attachments/Rolles Theorem.excalidraw.md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-04-30 13.56.32.excalidraw.md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-04-30 13.48.47.excalidraw.md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-04-30 13.46.09.excalidraw.md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-04-30 13.43.55.excalidraw.md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-04-30 13.41.07.excalidraw.md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-04-30 13.34.23.excalidraw.md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-04-30 13.26.33.excalidraw.md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-04-30 13.17.22.excalidraw.md",
     "First Year/Sem 1/MATH2222/Seminar - q-deformed Rational Numbers.md",
+    "First Year/Sem 1/MATH1115/Continuity.md",
+    "First Year/Sem 1/MATH1115/Integration.md",
+    "First Year/Sem 1/MATH1115/Differentiation (MATH1115).md",
+    "First Year/Sem 1/MATH1115/Calculus.md",
+    "First Year/Sem 1/MATH1115/Coordinates and Basis.md",
+    "First Year/Sem 1/PHYS1101/Spring Pendulum Extension.md",
+    "First Year/Sem 1/PHYS1101/attachments/Pasted image 20240428172007.png",
+    "First Year/Sem 1/PHYS1101/PHYS1101.md",
+    "First Year/Sem 1/COMP1130/attachments",
     "First Year/Sem 1/MATH2222/attachments",
     "Untitled.canvas",
     "First Year/Sem 1/MATH1115/attachments",
@@ -212,7 +216,6 @@
     "First Year/Sem 1/MATH1115/Calculus - Spivak_text.pdf.crdownload",
     "First Year/Sem 1/MATH1115/Calculus (4th ed.) - Spivak, Michael_8039.pdf",
     "First Year/Sem 1/PHYS1101",
-    "First Year/Sem 1/MATH2222",
     "Excalidraw/Drawing 2024-02-17 12.35.44.excalidraw.png",
     "Physics/Notes/4.2 Quantum Theory/Physics Investigation Planning.canvas",
     "Physics/Notes/3.2 Electromagnetism/attachments/transformers_PNG76.png",
@@ -223,7 +226,6 @@
     "Physics/Notes/4.3 Standard Model/attachments/Pasted image 20230823105703.png",
     "Physics/Notes/4.3 Standard Model/attachments/Pasted image 20230823105408.png",
     "Physics/Notes/4.3 Standard Model/attachments/Pasted image 20230823103927.png",
-    "Physics/Notes/4.3 Standard Model/attachments/Pasted image 20230823102944.png",
     "Applications/Breakthrough Challenge Planning.canvas",
     "Japanese/Exam Response Planning.canvas",
     "Chemistry/Assignments/Chem Research Investigation Planning.canvas"
