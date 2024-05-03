@@ -182,5 +182,24 @@
 >[!def]
 >A *bipartite graph* $G$ is a graph whose vertex set can be partitioned with $V(G)=X\sqcup Y$ such that all edges of $G$ go between vertices in $X$ and vertices of $Y$. We say $(X,Y)$ is a *bipartition* of $G$. $X,Y$ are also called *independent*, as there are no edges between any two elements of either set.
 
+>[!lemma]
+>If $G$ contains an odd cycle, then $G$ is not bipartite.
+>
+>>[!proof]
+>>For $G$ to be bipartite, there cannot be any non-bipartite subgraph. If there is an odd cycle, then we would need to map each vertex in the cycle to the two bipartitions in an alternating fashion. This is not possible on an odd cycle.
 
+>[!lemma]
+>Any tree $T$ is bipartite.
+>
+>>[!proof]
+>>By induction on the number of vertices. Remove a leaf, then add it back.
+
+>[!theorem]
+>$G$ is bipartite **if and only if** it has no odd cycle.
+>
+>>[!proof]
+>>One direction of this has already been prove.
+>>We may assume without loss of generality that $G$ is connected, as if it is not, we may bipartition each connected component to bipartition $G$.
+>>Now taking some connected graph $G$ that has no odd cycles.
+>>Now choose some spanning tree $T$ that spans $G$. We know that we can bipartition $T$ into $V(E) = V(T) = X\sqcup Y$. Now observe that if we add back an edge to the spanning tree and form a cycle, if the edge connects two vertices in $X$ or in $Y$, then the cycle will be odd, which contradicts the assumption on $G$. Therefore this bipartition is a valid bipartition of all of $G$.
 

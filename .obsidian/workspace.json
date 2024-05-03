@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
+                "file": "First Year/Sem 1/MATH1115/Dimension.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
+                "file": "First Year/Sem 1/MATH1115/Dimension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
+                "file": "First Year/Sem 1/MATH1115/Dimension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Graphs (MATH2222).md"
+                "file": "First Year/Sem 1/MATH1115/Dimension.md"
               }
             }
           },
@@ -178,13 +178,18 @@
   },
   "active": "b278f87a06d15b4a",
   "lastOpenFiles": [
-    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-05-01 13.09.18.excalidraw.md",
-    "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
+    "First Year/Sem 1/MATH1115/Coordinates and Basis.md",
+    "First Year/Sem 1/MATH1115/Vector spaces and Subspaces.md",
+    "First Year/Sem 1/MATH1115/Dimension.md",
+    "First Year/Sem 1/MATH1115/Change of Basis.md",
+    "First Year/Sem 1/MATH1115/Continuity.md",
+    "First Year/Sem 1/MATH1115/Integration.md",
+    "First Year/Sem 1/MATH1115/Calculus.md",
     "First Year/Sem 1/MATH1115/MATH1115.md",
+    "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-05-01 13.09.18.excalidraw.md",
     "First Year/Sem 1/MATH1115/Rank, Nullity and the Fundamental Matrix Spaces.md",
     "First Year/Sem 1/MATH2222/MATH2222.md",
-    "First Year/Sem 1/MATH1115/Change of Basis.md",
-    "First Year/Sem 1/MATH1115/Dimension.md",
     "First Year/Sem 1/MATH2222/Pigeonhole Principle.md",
     "First Year/Sem 1/MATH2222/attachments/Pigeonhole Principle 2024-04-30 16.27.53.excalidraw.md",
     "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
@@ -197,14 +202,9 @@
     "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-04-30 13.26.33.excalidraw.md",
     "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-04-30 13.17.22.excalidraw.md",
     "First Year/Sem 1/MATH2222/Seminar - q-deformed Rational Numbers.md",
-    "First Year/Sem 1/MATH1115/Continuity.md",
-    "First Year/Sem 1/MATH1115/Integration.md",
     "First Year/Sem 1/MATH1115/Differentiation (MATH1115).md",
-    "First Year/Sem 1/MATH1115/Calculus.md",
-    "First Year/Sem 1/MATH1115/Coordinates and Basis.md",
     "First Year/Sem 1/PHYS1101/Spring Pendulum Extension.md",
     "First Year/Sem 1/PHYS1101/attachments/Pasted image 20240428172007.png",
-    "First Year/Sem 1/PHYS1101/PHYS1101.md",
     "First Year/Sem 1/COMP1130/attachments",
     "First Year/Sem 1/MATH2222/attachments",
     "Untitled.canvas",

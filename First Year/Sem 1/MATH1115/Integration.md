@@ -17,9 +17,9 @@ Note that, across all possible partition, the set of possible upper or lower sum
 
 >[!def]
 >A bounded function $f$ is *integrable* on $[a,b]$ if,
->$$\begin{align*}\sup\left\{L(f,P)\right\}=\inf\left\{U(f,P)\right\}.\end{align*}$$
+>$$\begin{align*}\sup\left\{L(f,P)\right\}=\inf\left\{U(f,P')\right\}.\end{align*}$$
 >If $f$ is integrable on $[a,b]$ we can then write,
->$$\begin{align*}\int_{a}^{b}f &= \sup\left\{L(f,P)\right\} = \inf\left\{U(f,P)\right\}.\end{align*}$$
+>$$\begin{align*}\int_{a}^{b}f &= \sup\left\{L(f,P)\right\} = \inf\left\{U(f,P')\right\}.\end{align*}$$
 
 # Integrability
 >[!example]
@@ -74,4 +74,58 @@ U(2x,P_{2}) &= (1)\left(\frac{1}{2}\right) + (2)\left(\frac{1}{2}\right) = \frac
 \therefore U(f,P) - L(f,P) &< \epsilon'
 \end{align*}$$
 >Therefore $f$ is integrable.
+
+>[!def]
+>A $P'$ *refinement* of $P$ if $P'$ has all the points in $P$, with potentially some more points.
+
+>[!lemma]
+>If $P'$ is a refinement of $P$, then $U(f,P')\le U(f, P)$ and $L(f,P')\ge L(f,P)$.
+
+>[!lemma]
+>Any two partitions of $[a,b]$ admit a common refinement.
+
+>[!theorem]
+>Due to the previous lemma, we may choose $P=P'$ and will still always be able to show integrability of an integrable function.
+
+>[!remark]
+>If we have a sequence of successive refinements $S_{P} = P^{1},S^{2}, \cdots$, then,
+>$$\begin{align*}
+\left\{U(f,P^{n}\right\}\text{ is non-increasing},\\
+\left\{L(f,P^{n}\right\}\text{ is non-decreasing.}
+\end{align*}$$
+
+>[!theorem]
+>If $\left\{a_n\right\}$ is non-increasing and bounded below, then $\left\{a_{n}\right\}$ converges.
+>
+>>[!proof]
+>>We will show that $\lim_{n\rightarrow \infty}a_{n} = \inf\{a_{n}\}=: \alpha$.
+>>Note that the upper bound will be $a_{0}$, as the sequence is non-increasing. So the sequence is bounded above and below.
+>>
+>>Fix $\epsilon>0$.
+>>We would like to show that there is $N>0$ such that $n>N \Rightarrow |a_{n} - \alpha|<\epsilon$.
+>>Since $\alpha$ is an infimum, there is some $a_{n}$ such that $|a_{n}-\alpha|<\epsilon$. Since $\left\{a_{n}\right\}$ is non-increasing, $a_{k}\le a_{n}$ for all $k>n$. So then for all $k>n$, $|a_{k}-\alpha|<\epsilon$.
+>
+>>[!corollary]
+>>For any sequence $P^{i}$ of successive refinements, $\left\{U(f,P^{i}\right\}$ converges.
+>
+>>[!proof]
+>>$\left\{U(f,P^{i})\right\}$ is bounded below by the lower sum for all $i$.
+
+# Bolzano-Weierstrass Theorem
+>[!theorem]
+>Every bounded sequence has a convergent subsequence.
+>
+>>[!proof]
+>>We could show this by showing that every sequence either a non-increasing or non-decreasing subsequence, however we will not use this proof.
+>>
+>>First, take some bounded sequence $\left\{a_n\right\}$. We have an infimum and supremum, so we can define $I=[\inf\{a_{n}\}, \sup\{a_{n}\}]$.
+>>Now, we inductively define a sequence of nested intervals.
+>>Given $I_{n}$, divide it in half. One of these halves must have infinitely many points. If both have infinitely many points, then choose either one.
+>>Set this interval to be $I_{n+1}$.
+>>Now (as proved in a homework question), there must exist some $\alpha$ that is in every $I_{n}$, as $I_{n}$ is a sequence of nested closed intervals.
+>>
+>>Now, we will define a subsequence that converges to $\alpha$ by letting $b_{i}$ be some element in $I_{i}$. Upon doing this, we will also remove all points $a_{n}$ with $n<i$ to preserve ordering of our subsequence. As we are removing a finite number of elements from an infinite set, we will not run out of points.
+>>As the length of the interval $I_{n}$ is $\frac{1}{2^{n-1}}(l(I_{1}))$, so our points get closer and closer, so our subsequence converges to $\alpha$.
+
+
 
