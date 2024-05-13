@@ -203,3 +203,199 @@
 >>Now taking some connected graph $G$ that has no odd cycles.
 >>Now choose some spanning tree $T$ that spans $G$. We know that we can bipartition $T$ into $V(E) = V(T) = X\sqcup Y$. Now observe that if we add back an edge to the spanning tree and form a cycle, if the edge connects two vertices in $X$ or in $Y$, then the cycle will be odd, which contradicts the assumption on $G$. Therefore this bipartition is a valid bipartition of all of $G$.
 
+---
+TODO: Catchup!
+
+---
+
+>[!theorem]
+>*Hall's theorem* states that there is a matching of $X$ into $Y$ if and only if, for all subsets $T\subset X$,
+>$$\begin{align*}|T|&\le |N(T)|,\end{align*}$$
+>where $N(T)\subset Y$ is the set of neighbours of vertices in $T$.
+>
+>>[!proof]
+>>First direction: clear (TODO in catchup).
+>>
+>>Now for the converse, suppose that for all $T\subset X$, $|T|\le |N(T)|$. We must show that there is a matching of $X$ into $Y$.
+>>Consider two cases. In the first case, we have that for all proper subsets $T\subset X$, $|T| < |N(T)|$. In the second case, we have that for some proper subset $T\subset X$, $|T| = |N(T)|$. We will construct a matching in each case.
+>>
+>>**Case 1.**
+>>Let $x_{1}\in X$. We know by assumption, if we let $T=\left\{x_{1}\right\}$, that $x_{1}$ has some connected $y_{1}$. Now let $X' = X-\left\{x_{1}\right\},\ Y' = Y-\left\{y_{1}\right\}$. Now let $G'$ be the subgraph of $G$ with vertices $X'\sqcup Y'$, and all edges of $G$ that have endpoints in $X'\sqcup Y'$.
+>>We want a matching of $X'$ into $Y'$, noting that $|X'|<|X|$. Note that $G'$ satisfies the assumption of Hall's theorem, i.e., for all subsets of $T'\subset X'$, $|T'|\le |N'(T)|$.
+>>Therefore, the bipartite graph of $G'$ has a matching of $X'$ into $Y'$. Together with the edge $e=x_{1}y_{1}$, this gives a matching of $G$.
+>>
+>>**Case 2.**
+>>Assume there is some $T\subset X$ such that $|T|=|N(T)|$. We know that for any $S\subset T$, $|S|\le |N(S)|$. So, by induction hypothesis we have a matching for this. Now let $G'$ be the graph given by removing $T$ and its neighbours from $G$, i.e., the remainder of the graph after matching $T$. We must show that $G'$ has a matching of $X'=X-T$ into $Y'=Y-N(T)$.
+>>Let $V\subset X'$. Note that $N_{G'}(V) = N_{G}(V\cup T) - |N(T)|\ge |V\cup T| - |T| = |V|$ as $V,T$ are disjoint. So then $N_{G'}(V)\ge |V|$, so $G'$ satisfies Hall's theorem. Therefore we have a matching.
+>>
+>>In both cases, we have constructed a matching, which completes our proof.
+>>$$\begin{align*}
+\ \tag*{$\blacksquare$}
+\end{align*}$$
+
+>[!remark]
+>Hall's theorem regards the question, *when is there a matching of $X$ into $Y$*?
+
+---
+
+>[!question]
+>Suppose that you want to schedule lectures times for classes so that no student has any course conflicts. How many class times do you need?
+>
+>>[!remark] Consider...
+>>Consider the graph $G$ where the vertices are the classes, and two classes $v,w$ have an edge if they have a student in common.
+>>![[Graphs (MATH2222) 2024-05-07 13.40.42.excalidraw]]
+>>We want to assign a time (represented by a colour) to each class (vertex) such that two classes (vertices) with a common student (edge) have different times (colours). How many colours do we need?
+
+
+>[!def]
+>A *k-colouring* of $G$ is a function $f : V(G) \longrightarrow S$, where $|S|=k$ and $S$ is the set of colours.
+
+>[!def]
+>A **k-colouring** is *proper* if $f(v)\ne f(w)$ whenever $(v-w)\in E(G)$.
+
+>[!def]
+>The *chromatic number* of $G$ is the smallest number of colours needed to properly colour $G$. I.e., the minimum $k$ such that a proper k-colouring exists for $G$. We write $\chi(G)$ to represent the chromatic number of $G$.
+
+>[!example]
+>What is $\chi(T)$ for a tree $T$?
+>
+>>[!check] Solution.
+>>Note that $T$ is bipartite, so we may colour one bipartition white and the other black.
+>
+>>[!remark]
+>>This goes the other way! All graph with $\chi(G)=2$ are bipartite.
+>>>[!proof]
+>>>Let $X$ be all the vertices with one colour, and $Y$ be the vertices with the other colour. Then we have a bipartition, and $X,Y$ are both independent. So $G$ is bipartite.
+
+>[!example]
+>What about graphs with $\chi(G)=3$?
+>A graph $G$ with $\chi(G)=3$ can be partitioned into three independent sets.
+>Note that any odd cycle has $\chi(G)=3$, which can be seen visually.
+>
+>What about graphs with $\chi(G)=10$?
+>The complete graph on 10 vertices, $K_{10}$, has this chromatic numbers.
+>>[!remark]
+>>In general $\chi(K_{n})=n$.
+>
+>>[!seealso] Exercise.
+>>If $G$ has $n$ vertices, but $G\ne K-n$, then $\chi(G)<n$.
+
+>[!def]
+>Instead of just considering $\chi(G)$, we may consider the following function,
+>$$\begin{align*}
+>\chi_{G} : \mathbb{Z}_{\ge 0} \longrightarrow \mathbb{Z}_{\ge0},\\
+>\chi_{G}(l) &= \#\text{ of proper }l\text{-colorings of }G.
+>\end{align*}$$
+>>[!example]
+>>If we take the graph $U$ with $n$ vertices and no edges, then $\chi_{U_{n}}(l)=l^{n}$.
+>
+>>[!example]
+>>If we take the complete graph $K_{n}$ with $n$ vertices.
+>>For $l<n$, we have $\chi_{K_{n}}(l)=0$. We then have $\chi_{K_{n}}(n) = n!$. Then, for $l>n$, we have $\chi_{K_{n}}(l) = l(l-1)(l-2)\cdots(l-n+1)$.
+>>More generally, we can write that,
+>>$$\begin{align*}
+>>\chi_{K_{n}}(l) &= l(l-1)(l-2)\cdots(l-n+1)\\
+>>&= \binom{l}{n}n!
+>>\end{align*}$$
+>
+>>[!example]
+>>Now take $T$ to be a tree with $n$ vertices.
+>>Think about constructing $T$ by starting with a single vertex, and at each stage, adding a single new vertex connected by an edge to an old vertex.
+>>We have $x$ colours for the first vertex. We have $x-1$ colours for the next vertex, and $x-1$ for the next, and so on. So then,
+>>$$\begin{align*}
+>>\chi_{T}(x) &= x(x-1)^{n-1}.
+\end{align*}$$
+
+>[!question]
+>Given some graph $G$, how might we count the number of proper $l$-colourings of it?
+
+>[!theorem]
+>The function $\chi_{G} : l \longrightarrow \text{\# of proper }l\text{-colorings of }G$ is **always a polynomial**, called the *chromatic polynomial of $G$*.
+>We can therefore evaluate this polynomial even on values such as complex numbers, negative numbers, etc. **This is cool!**
+>>[!proof]
+>>We can do this using the inclusion-exclusion principle.
+>>For each edge $e=vw\in E(G)$, let $C_{e} = \left\{k\text{-colorings of }G\text{ that are "bad" at }e\right\}$ $= \left\{f : V(G) \longrightarrow \left\{1,2,\cdots,k\right\} \mid f(v)=f(w)\right\}$. Note that a $k$-colouring of $G$ is not proper if and only if $f\in\bigcup_{e\in E(G)}C_{e}$. So the number of proper colourings is,
+>>$$\begin{align*}
+>>\chi_{G}(k) &= \left|U - \bigcup_{e\in E(G)}C_{e}\right|.
+>>\end{align*}$$
+>>So then,
+>>
+>>
+>> 
+>> $$\begin{align*}
+>> \chi_{G}(k) &= \sum\limits_{S\in E(G)}(-1)^{|S|}\left|\bigcap_{e\in S}C_{e}\right|.
+>> \end{align*}$$
+>> So, let $S\subset E(G)$. Now we would like to compute $\left|\bigcap_{e\in S}C_{e}\right|$.
+>> We interpret this set as the set of all colourings so that all edges in $S$ are bad. To do this, we may consider the graph $G_{S}$, with $V(G_{S})=V(G)$, $E(G_{S}) = S$. If $G$ is coloured badly at all edges in $S$, then $G_{S}$ has some connected components that are all the same colour. So then, if $c(G_{S})$ is the number of connected components in $G_{S}$,
+>> $$\begin{align*}
+>> \left|\bigcap_{e\in S}C_{e}\right| &= k^{c(G_{S})}
+>> \end{align*}$$
+>> So then,
+>> $$\begin{align*}
+>> \chi_{G}(k) &= \sum\limits_{S\in E(G)}(-1)^{|S|}k^{c(G_{S})}.
+>> \end{align*}$$
+>> Therefore $\chi_{G}$ is a polynomial.
+
+# Planar Graphs
+>[!question]
+>*The Utility Problem*
+>Suppose that we have three houses, $A,B,C$, and three utilities $X,Y,Z$ that each house must be connected to. Can we connect all the houses to the utilities without crossing any paths?
+>![[Graphs (MATH2222) 2024-05-10 16.10.31.excalidraw]]
+
+>[!question]
+>*4-colourings of maps*
+>Can every map be 4-coloured?
+
+>[!def]
+>A *curve* from $u$ to $v$ in $\mathbb{R}^{2}$ is the image of a continuous function $f : [0,1] \longrightarrow \mathbb{R}^{2}$, where $f(0)=u,f(1)=v$.
+>The curve is *simple* if $f$ is injective, except possibly when $u=v$.
+
+>[!def]
+>A *drawing* of a graph $G$ is another graph $H\cong G$ such that each vertex of $H$ is a point in $\mathbb{R}^{2}$ and each edge with endpoints $u,v$ is a curve from $u$ to $v$.
+
+>[!def]
+>In a drawing, two edges $e_{1},e_{2}$ *cross* if they intersect somewhere other than a vertex endpoint.
+
+>[!def]
+>A *planar graph* $G$ is a graph that has a drawing without crossings.
+>Such a drawing is sometimes called a *plane graph*.
+
+>[!def]
+>A set $R\in \mathbb{R}^{2}$ is *path-connected* if, for all points $u,v$ in $R$, there is a curve from $u$ to $v$ lying entirely in $R$ (with endpoints $u,v$).
+
+>[!theorem]
+>*The Jordan Curve Theorem*
+>Every simple, closed curve in $\mathbb{R}^{2}$ partitions its compliment into two path-connected regions, known as the interior and the exterior.
+>
+>Equivalently, every plane graph isomorphic to a circle has two faces; one is bounded and the other is unbounded.
+
+>[!remark]
+>Now, in addition to considering vertices and edges, we may also consider faces.
+
+>[!def]
+>A *face* $f$ of a plane curve $G$ is a maximal path-connected subset of $\mathbb{R}^{2}$ that does not intersect any vertex or edge in $G$.
+
+>[!question]
+>Which graphs are planar?
+
+>[!theorem]
+>*Euler's Characteristic Formula*
+>If $G$ is a connected plane graph with $v$ vertices, $e$ edges and $f$ faces, then we have that,
+>$$\begin{align*}
+>v-e+f &= 2.
+>\end{align*}$$
+>
+>>[!proof]
+>>This will be proven by strong induction on the number of cycles in $G$.
+>>**Base case.**
+>>If $G$ is connected and has no cycles, then $G$ is a tree. So then $f=1$, $e=v-1$. Therefore $v-e+f = 2$.
+>>**Inductive Step.**
+>>Let $G$ have a cycle $C$ containing an edge $\alpha$. Since $C$ is a cycle, the Jordan curve theorem says that this edge $\alpha$ bounds two faces, $f_{1},f_{2}$.
+>>Now consider the plane graph $G'=G-\alpha$. We merge $f_{1}$ and $f_{2}$ to get a new face $F=f_{1}\cup f_{2}\cup \alpha$.
+>>Now, $G'$ is still connected as we removed an edge from a cycle, and $G'$ has fewer cycles than $G$. Then, by our induction hypothesis, $v'-e'+f'=2$. With $f=f'+1,e=e'+1,v=v'$, we then have that,
+>>$$\begin{align*}
+>>v-e+f &= v'-(e'+1)+f'+1 = 2.
+\end{align*}$$
+
+>[!remark]
+>This theorem imposes constraints on the number of edges in a planar graph with $v$ vertices.

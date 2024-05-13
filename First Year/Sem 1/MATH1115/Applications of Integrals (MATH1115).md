@@ -1,0 +1,1 @@
+![[Applications of Integrals (MATH1115) 2024-05-08 12.09.36.excalidraw]]

@@ -8,4 +8,6 @@
 - [[Differentiation (MATH1115)]]
 - [[Inverses Functions (MATH1115)]]
 - [[Integration]]
-- 
+- [[The Fundamental Theorems of Calculus]]
+- [[Applications of Integrals (MATH1115)]]
+- [[Trigonometric Functions (MATH1115]]
