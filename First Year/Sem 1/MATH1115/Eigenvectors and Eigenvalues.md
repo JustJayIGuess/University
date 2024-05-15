@@ -79,3 +79,8 @@
 >Take $A = \begin{bmatrix} \frac{\sqrt{3}}{2} & \frac{-1}{2} \\ \frac{1}{2} & \frac{\sqrt{3}}{2} \end{bmatrix}$. This is a rotation matrix, so there should be no eigenvectors, as any vector will not point in the same direction after a rotation.
 >However, there are eigenvectors if we allow complex numbers!
 
+---
+
+>[!def]
+>An *eigenbasis* for a square matrix $A$ is a basis $B = \left\{v_{1},\cdots,v_{n}\right\}$ for $F^{n}$ such that every $v_{i}$ is an eigenvector.
+>Similarly, and *eigenbasis* for a linear transformation $T : V \longrightarrow V$ is a basis $B = \left\{v_{1},\cdots,v_{n}\right\}$ for $V$ with each $v_{i}$ an eigenvector.

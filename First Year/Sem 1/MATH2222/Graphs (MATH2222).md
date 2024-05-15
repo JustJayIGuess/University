@@ -399,3 +399,62 @@ TODO: Catchup!
 
 >[!remark]
 >This theorem imposes constraints on the number of edges in a planar graph with $v$ vertices.
+
+>[!theorem]
+>Let $G$ be a simple planar graph with $n\ge 3$ vertices. The $G$ has at most $3n-6$ edges.
+>>[!proof]
+>>For $n=3$, the theorem is true by inspection (all $n=3$ graphs are planar).
+>>Now suppose that $G$ is the maximal plane graph with $n\ge4$ vertices (the graph with the most edges that is still planar). It immediately follows that $G$ is connected. We would like to show that $G$ has at most $3n-6$ edges.
+>>By Euler's Characteristic Formula, $v-e+f=2$. Since $G$ is simple, each face bounds at least three edges. So if $F$ is the set of faces of $G$ and we sum,
+>>$$\begin{align*}
+>>\sum\limits_{f'\in F}\#\text{edges in }f'&\ge 3f.
+>>\end{align*}$$
+>>However, each edge bounds two faces, so the above sum is twice the number of edges.
+>>$$\begin{align*}
+>>2e&\ge 3f.
+>>\end{align*}$$
+>>Applying this in Euler's formula,
+>>$$\begin{align*}
+>>f &= 2+e-v\\
+>>f=2+e-v&\le \frac{2}{3}e\\
+>>\frac{1}{3}e &\le v-2\\
+>>e &\le 3v-6.
+\end{align*}$$
+
+>[!corollary]
+>$K_{5}$ is not planar.
+>>[!proof]
+>>$K_{5}$ has $v=5,e=10$.
+>>But if $K_{5}$ were planar, we would need $10\le 3(5)-6$. This is not true, so $K_{5}$ is not planar.
+
+>[!remark]
+>In a bipartite graph, there can be no odd cycles, so then each face must have at least $4$ eges.
+
+>[!theorem]
+>Suppose that $G$ is a planar graph with no 3-cycle, and $G$ has $v$ vertices and $e$ edges. Then,
+>$$\begin{align*}
+>e&\le 2v-4.
+>\end{align*}$$
+>The proof of this is similar to the proof without the restriction of no 3-cycles.
+
+>[!corollary]
+>$K_{3,3}$ is not planar.
+>>[!proof]
+>>$K_{3,3}$ is bipartite and therefore has no odd cycle. So then if $K_{3,3}$ were planar, we would have $9\le 2(6)-4$. This is not true, so then $K_{3,3}$ is not planar.
+
+>[!remark]
+>If $G$ has $K_{5}$ or $K_{3,3}$ as a subgraph, then $G$ is not planar.
+
+>[!remark]
+>Subdividing and unsubdividing does not change the planarity of a graph.
+>So then if $G$ contains a subgraph that is a subdivision of $K_{5}$ or $K_{3,3}$, then $G$ is not planar.
+
+>[!theorem]
+>*Kuratowski's theorem*
+>$G$ is planar if and only if $G$ has no subgraph that is a 'topological' $K_{5}$ or $K_{3,3}$.
+>>[!proof]
+>>We have already proven one direction of this. The other direction is somewhat difficult to prove.
+
+>[!quote]
+>Graph theory is loaded with **zillions** of such statements.
+>	*- Tony Licata, 2024*

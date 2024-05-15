@@ -25,9 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Trigonometric Functions (MATH1115.md",
+                "file": "First Year/Sem 1/MATH1115/Diagonalization.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "3568254210fba770",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-05-14 13.31.59.excalidraw.md"
               }
             }
           }
@@ -107,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Trigonometric Functions (MATH1115.md",
+                "file": "First Year/Sem 1/MATH1115/Diagonalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Trigonometric Functions (MATH1115.md",
+                "file": "First Year/Sem 1/MATH1115/Diagonalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Trigonometric Functions (MATH1115.md"
+                "file": "First Year/Sem 1/MATH1115/Diagonalization.md"
               }
             }
           },
@@ -180,32 +190,35 @@
   },
   "active": "d11360e40375e44b",
   "lastOpenFiles": [
-    "First Year/Sem 1/MATH1115/attachments/Applications of Integrals (MATH1115) 2024-05-08 12.09.36.excalidraw.md",
-    "First Year/Sem 1/MATH1115/Applications of Integrals (MATH1115).md",
-    "First Year/Sem 1/MATH1115/Eigenvectors and Eigenvalues.md",
-    "First Year/Sem 1/MATH1115/The Fundamental Theorems of Calculus.md",
-    "First Year/Sem 1/MATH1115/Overleaf Temp.md",
-    "Untitled.canvas",
-    "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
-    "First Year/Sem 1/MATH2222/MATH2222.md",
-    "First Year/Sem 1/MATH1115/Rank, Nullity and the Fundamental Matrix Spaces.md",
-    "First Year/Sem 1/MATH1115/Integration.md",
-    "First Year/Sem 1/MATH1115/Continuity.md",
-    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-05-10 16.10.31.excalidraw.md",
-    "First Year/Sem 1/MATH1115/Trigonometric Functions (MATH1115.md",
-    "First Year/Sem 1/MATH1115/attachments/Trigonometric Functions (MATH1115 2024-05-09 12.18.23.excalidraw.md",
-    "First Year/Sem 1/MATH1115/Calculus.md",
     "First Year/Sem 1/MATH1115/MATH1115.md",
-    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-05-07 13.40.42.excalidraw.md",
-    "First Year/Sem 1/MATH2222/attachments/Pigeonhole Principle 2024-04-30 16.27.53.excalidraw.md",
-    "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
+    "First Year/Sem 1/MATH1115/Trigonometric Functions (MATH1115.md",
+    "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-05-14 13.31.59.excalidraw.md",
+    "First Year/Sem 1/MATH2222/MATH2222.md",
     "First Year/Sem 1/MATH1115/Dimension.md",
     "First Year/Sem 1/MATH1115/Coordinates and Basis.md",
     "First Year/Sem 1/MATH1115/Vector spaces and Subspaces.md",
+    "First Year/Sem 1/MATH1115/Diagonalization.md",
+    "First Year/Sem 1/MATH1115/attachments/an-emoji-disintegrating-in-pain.gif",
+    "First Year/Sem 1/MATH1115/attachments/Pasted image 20240513165359.png",
+    "First Year/Sem 1/MATH1115/Eigenvectors and Eigenvalues.md",
+    "First Year/Sem 1/MATH1115/Rank, Nullity and the Fundamental Matrix Spaces.md",
+    "First Year/Sem 1/MATH1115/Overleaf Temp.md",
+    "First Year/Sem 1/MATH1115/attachments/Applications of Integrals (MATH1115) 2024-05-08 12.09.36.excalidraw.md",
+    "First Year/Sem 1/MATH1115/Applications of Integrals (MATH1115).md",
+    "First Year/Sem 1/MATH1115/The Fundamental Theorems of Calculus.md",
+    "Untitled.canvas",
+    "First Year/Sem 1/MATH1115/Integration.md",
+    "First Year/Sem 1/MATH1115/Continuity.md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-05-10 16.10.31.excalidraw.md",
+    "First Year/Sem 1/MATH1115/attachments/Trigonometric Functions (MATH1115 2024-05-09 12.18.23.excalidraw.md",
+    "First Year/Sem 1/MATH1115/Calculus.md",
+    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-05-07 13.40.42.excalidraw.md",
+    "First Year/Sem 1/MATH2222/attachments/Pigeonhole Principle 2024-04-30 16.27.53.excalidraw.md",
+    "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
     "First Year/Sem 1/MATH1115/Change of Basis.md",
     "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-05-01 13.09.18.excalidraw.md",
     "First Year/Sem 1/MATH2222/Pigeonhole Principle.md",
-    "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-04-30 13.56.32.excalidraw.md",
     "First Year/Sem 1/PHYS1101/attachments/Pasted image 20240428172007.png",
     "First Year/Sem 1/COMP1130/attachments",
     "First Year/Sem 1/MATH2222/attachments",
@@ -225,8 +238,6 @@
     "Physics/Notes/3.2 Electromagnetism/attachments/Pasted image 20231003185029.png",
     "Chemistry/Periodic Table.png",
     "Physics/Notes/4.3 Standard Model/attachments/Pasted image 20230823105703.png",
-    "Physics/Notes/4.3 Standard Model/attachments/Pasted image 20230823105408.png",
-    "Physics/Notes/4.3 Standard Model/attachments/Pasted image 20230823103927.png",
     "Applications/Breakthrough Challenge Planning.canvas",
     "Japanese/Exam Response Planning.canvas",
     "Chemistry/Assignments/Chem Research Investigation Planning.canvas"
