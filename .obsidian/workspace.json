@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Diagonalization.md",
+                "file": "First Year/Sem 1/MATH1115/Eigenvectors and Eigenvalues.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Diagonalization.md",
+                "file": "First Year/Sem 1/MATH1115/Eigenvectors and Eigenvalues.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Diagonalization.md",
+                "file": "First Year/Sem 1/MATH1115/Eigenvectors and Eigenvalues.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 1/MATH1115/Diagonalization.md"
+                "file": "First Year/Sem 1/MATH1115/Eigenvectors and Eigenvalues.md"
               }
             }
           },
@@ -190,7 +190,9 @@
   },
   "active": "d11360e40375e44b",
   "lastOpenFiles": [
+    "First Year/Sem 1/MATH1115/Diagonalization.md",
     "First Year/Sem 1/MATH1115/MATH1115.md",
+    "First Year/Sem 1/MATH1115/Eigenvectors and Eigenvalues.md",
     "First Year/Sem 1/MATH1115/Trigonometric Functions (MATH1115.md",
     "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
     "First Year/Sem 1/MATH2222/attachments/Graphs (MATH2222) 2024-05-14 13.31.59.excalidraw.md",
@@ -198,10 +200,8 @@
     "First Year/Sem 1/MATH1115/Dimension.md",
     "First Year/Sem 1/MATH1115/Coordinates and Basis.md",
     "First Year/Sem 1/MATH1115/Vector spaces and Subspaces.md",
-    "First Year/Sem 1/MATH1115/Diagonalization.md",
     "First Year/Sem 1/MATH1115/attachments/an-emoji-disintegrating-in-pain.gif",
     "First Year/Sem 1/MATH1115/attachments/Pasted image 20240513165359.png",
-    "First Year/Sem 1/MATH1115/Eigenvectors and Eigenvalues.md",
     "First Year/Sem 1/MATH1115/Rank, Nullity and the Fundamental Matrix Spaces.md",
     "First Year/Sem 1/MATH1115/Overleaf Temp.md",
     "First Year/Sem 1/MATH1115/attachments/Applications of Integrals (MATH1115) 2024-05-08 12.09.36.excalidraw.md",

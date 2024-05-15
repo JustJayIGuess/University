@@ -84,3 +84,92 @@
 >[!def]
 >An *eigenbasis* for a square matrix $A$ is a basis $B = \left\{v_{1},\cdots,v_{n}\right\}$ for $F^{n}$ such that every $v_{i}$ is an eigenvector.
 >Similarly, and *eigenbasis* for a linear transformation $T : V \longrightarrow V$ is a basis $B = \left\{v_{1},\cdots,v_{n}\right\}$ for $V$ with each $v_{i}$ an eigenvector.
+
+
+>[!theorem]
+>Suppose that $\lambda_{1},\cdots,\lambda_{k}$ are distinct eigenvalues for $A$ and $S_{1},\cdots ,S_{k}$ are corresponding sets of linearly independent eigenvectors. Then $S_{1}\cup S_{2}\cup\cdots\cup S_{k}$ is linearly independent.
+>
+>>[!example]
+>>For $\lambda_{1}: \left\{v_{1},v_{2}\right\}$, $\lambda_{2}: \left\{v_{3},v_{4},v_{5}\right\}$, we have $\left\{v_{1},v_{2},v_{3},v_{4},v_{5}\right\}$ are linearly independent.
+> 
+>>[!corollary]
+>>If an $n\times n$ matrix $A$ has $n$ distinct eigenvalues then $A$ has an eigenbasis and is therefore diagonalisable.
+>>
+>>>[!remark]
+>>>This should make sense, as the characteristic polynomial of an  $n\times n$ matrix is of degree $n$, and most degree $n$ polynomials have $n$ distinct roots. So most matrices are diagonalisable.
+> 
+>>[!proof] Baby proof.
+>>Suppose that $\left\{v_{1},v_{2}\right\}$ are linearly independent eigenvectors with eigenvalue 3, and $v_{3}$ is an eigenvector with eigenvalue $2$.
+>>We claim that $\left\{v_{1},v_{2},v_{3}\right\}$ are linearly independent.
+>>Suppose that
+>>$$a_{1}v_{2}+a_{2}v_{2}+a_{3}v_{3}=0\tag{1}$$
+>>We will be done if we can prove that $a_{1}=a_{2}=a_{3}=0$ from only this.
+>>Multiply both sides by $A$.
+>>$$\begin{align*}
+>>A(a_{1}v_{1}+a_{2}v_{2}+a_{3}v_{3}) &= A(0)=0\\
+>>a_{1}(Av_{1})+a_{2}(Av_{2})+a_{3}(Av_{3}) &= 0\\
+>>3a_{1}v_{1}+3a_{2}v_{2}+2a_{3}v_{3} &= 0\tag{2}
+>>\end{align*}$$
+>>Now from $2(1)-(2)$, we have,
+>>$$\begin{align*}
+>>a_{1}v_{1}+a_{2}v_{2} &= 0\\
+>>\Rightarrow a_{1}=a_{2} &= 0.
+>>\end{align*}$$
+>>Substituting this back into $(1)$ we can finally see that $a_{3}=0$ also. Therefore the vectors are all linearly independent.
+> 
+>>[!proof]
+>> We will prove this by induction on $k$.
+>> **Base case.**
+>> For $k=1$, the statement is trivially true.
+>> **Inductive step.**
+>> Suppose that the theorem is true for $k-1$, so then $S_{1}\cup\cdots\cup S_{k}$ is linearly independent. Then let,
+>> $$\begin{align*}
+>> S_{1}\cup\cdots\cup S_{k-1} &= \left\{v_{1},\cdots,v_{p}\right\},S_{k}=\left\{w_{1},\cdots,w_{q}\right\}.
+>> \end{align*}$$
+>> Now suppose that,
+>> $$\begin{align*}
+>> a_{1}v_{1} + \cdots + a_{p}v_{p} + b_{1}w_{1} + \cdots + b_{q}w_{q} &= 0\tag{1}.
+>> \end{align*}$$
+>> Then we can multiply by $A$ and use properties of eigenvectors to get that,
+>> $$\begin{align*}
+>> a_{1}\lambda_{1}v_{1} + \cdots + a_{p}\lambda_{k-1}v_{p} + b_{1}\lambda_{k}w_{1} + \cdots + b_{q}\lambda_{k}w_{q} &= 0\tag{2}
+>> \end{align*}$$
+>> Subtracting $\lambda_{k} (1)$ from $(2)$,
+>> $$\begin{align*}
+>> a_{1}(\lambda_{1}-\lambda_{k})v_{1}+\cdots + a_{p}(\lambda_{k-1}-\lambda_{k})v_{p} &= 0.
+>> \end{align*}$$
+>> Then because this set of vectors are linearly independent, all of $a_{1},\cdots, a_{p}$ are $0$. Substituting this back in we can finally conclude that all $a$ are equal to zero, which completes our proof.
+
+# Cayley-Hamilton Theorem
+
+>[!theorem]
+>*Cayley-Hamilton Theorem*
+>Any square matrix $A$ satisfies its characteristic polynomial.
+>I.e.,
+>$$\begin{align*}
+>P_{A}(A) &= 0.
+>\end{align*}$$
+> 
+>>[!example]
+>>Take $A=\begin{bmatrix}a & b\\c & d\end{bmatrix}$.
+>>Then we have the following characteristic polynomial,
+>>$$\begin{align*}
+>>P(\lambda) &= \lambda^{2} - (a+d)\lambda + (ad-bc).
+>>\end{align*}$$
+>>Now note that,
+>>$$\begin{align*}
+>>A^{2} &= \begin{bmatrix}a^{2}+bc & ab+bd\\ac+cd & bc+d^{2}\end{bmatrix}\\
+>>(a+d)A &= \begin{bmatrix}a^{2}+ad & ab+bd \\ ac+cd & ad-bc\end{bmatrix}.
+>>\end{align*}$$
+>>So then it is clear that $P(A)=0$.
+> 
+>>[!proof] (Sketch Proof.)
+>>Suppose that $A$ is diagonalisable, so that $A=PDP^{-1}$, $D = \begin{bmatrix}\lambda_{1} & &\\&\ddots&\\&&\lambda_{n}\end{bmatrix}$. This is sufficient through an epsilon-delta argument, as all matrices are epsilon close to a diagonalisable matrix.
+>>
+>>Then $P_{A}(\lambda) = P_{D}(\lambda) = (\lambda-\lambda_{1})\cdots(\lambda-\lambda_{n})$. So then,
+>>$$\begin{align*}
+>>P_{A}(A) &= (A-\lambda_{1}I)\cdots(A - \lambda_{n}I)\\
+>>&= P(D-\lambda_{1}I)\cdots(D-\lambda_{n}I)P^{-1}\\
+>>&= 0.
+>>\end{align*}$$
+>>The last line follows as $D-\lambda_{i}I$ has a zero in position $i$. 

@@ -88,3 +88,18 @@
 >[!theorem]
 >- Alg mult $\ge$ geom mult
 >- A is diagonalisable if and only if alg mult $=$ geom mult for all eigenvalues.
+
+>[!theorem]
+>Suppose that $A$ is a real symmetric matrix, so that $A^{T} = A$. Then,
+>- all eigenvalues of $A$ are real
+>- $A$ is diagonalisable
+>- $A$ has orthogonal eigenvectors
+>
+>>[!proof]
+>>Suppose that $Av = \lambda v$ for $\lambda$ possibly complex.
+>>Then $v^{*}Av = v^{*}\lambda v = \lambda \|v\|^{2}$. So then,
+>>$$\begin{align*}
+>>\lambda &= \frac{v^{*}\lambda v}{\|v\|^{2}}.
+\end{align*}$$
+>>But $\overline{v^{*}Av} = v^{*}Av$, so this quantity is real.
+
