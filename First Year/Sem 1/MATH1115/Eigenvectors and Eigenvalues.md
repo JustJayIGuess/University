@@ -81,6 +81,29 @@
 
 ---
 
+>[!remark]
+>Suppose that $Av = \lambda v$. Then,
+>$$\begin{align*}
+>\lambda v - A v &= 0\\
+>(\lambda I - A)v &= 0.
+>\end{align*}$$
+>So then $v\in \text{null}(\lambda I - A)$. So we are looking for $\lambda$ such that $\text{null}(\lambda I - A) \ne \left\{0\right\}$. This is exactly equivalent to finding when $\det(A) = 0$.
+
+>[!def]
+>The *characteristic polynomial* of $A$ is $p(\lambda) = \det(\lambda I - A)$.
+
+>[!info]
+>So then we follow these steps to compute eigenvectors and eigenvalues.
+>1. Compute $p(\lambda)$.
+>2. Find roots of $p(\lambda)$ to get eigenvalues.
+>3. Compute $E_{\lambda_{i}} = \text{null}(\lambda_{i}I - A)$, where nonzero vectors in this are eigenvectors.
+
+>[!lemma]
+>If $v$ is an eigenvector of the real $n\times n$ matrix $A$ with eigenvalue $\lambda$, then $\bar{v}$ is eigenvector with eigenvalue $\bar{\lambda}$.
+>
+>>[!proof]
+>>If $A$ is real, then $\bar{A}=A$. So then we have $A\bar{v} = \bar{A}\bar{v} = \bar{Av} = \bar{\lambda v} = \bar{\lambda}\bar{v}$.
+
 >[!def]
 >An *eigenbasis* for a square matrix $A$ is a basis $B = \left\{v_{1},\cdots,v_{n}\right\}$ for $F^{n}$ such that every $v_{i}$ is an eigenvector.
 >Similarly, and *eigenbasis* for a linear transformation $T : V \longrightarrow V$ is a basis $B = \left\{v_{1},\cdots,v_{n}\right\}$ for $V$ with each $v_{i}$ an eigenvector.

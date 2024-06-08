@@ -28,3 +28,5 @@ GT lx.A : s -> t
 GT A : s -> t GT B : s
 GT A B : t
 ```
+
+# Finite Base Types

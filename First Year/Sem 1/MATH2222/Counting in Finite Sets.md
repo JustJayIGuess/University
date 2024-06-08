@@ -1,4 +1,4 @@
-;Suppose we have some finite set $S$. How can we find $|S|$?
+Suppose we have some finite set $S$. How can we find $|S|$?
 
 - *The Rule of Sum*:
 $$\begin{align*}

@@ -41,7 +41,7 @@
 
 # Linear Dependence
 >[!def]
->The set of vectors $\left\{v_{1},\cdots,v_{r}\right\}$ are *linearly dependent* if any $v\in V$ is a linear combination in at most one way.
+>The set of vectors $\left\{v_{1},\cdots,v_{r}\right\}$ are *linearly independent* if any $v\in V$ is a linear combination in at most one way.
 
 >[!example]
 >Suppose that $v$ is a linear combination in two ways.

@@ -1,5 +1,9 @@
->TODO Lec Catchup
+>[!def]
+>$f$ is *differentiable* at $a$ if $\lim_{h \longrightarrow 0}\frac{f(a+h)-f(a)}{h}$ exists.
+>If so, we call this limit the *derivative* of $f$ at $a$ and write $f'(a)$.
 
+>[!theorem]
+>If $f$ is differentiable at $a$, then $f$ is continuous at $a$.
 # The Power Rule
 >[!theorem]
 >If $f(x) = x^n$, $f'(x) = nx^{n-1}$.

@@ -2,6 +2,29 @@
 >[!todo]
 >Transfer notes!
 
+>[!def]
+>Let $A$ be an $m\times n$ matrix over $F$.
+>
+>The *row space* of $A$ is the subspace of $F^{n}$ spanned by the row vectors of $A$.
+>
+>The *column space* of $A$ is the subspace of $F^{m}$ spanned by the column vectors of $A$.
+>
+>The *null space* of $A$ is the subspace of $F^{n}$ given by all solutions to $Ax=0$.
+>
+>The *left null space* of $A$ is the subspace of $F^{m}$ given by all solutions to $xA=0 \Leftrightarrow A^{T}x = 0$.
+
+>[!theorem]
+>$Ax=b$ is consistent exactly when $b\in \text{col}(A)$.
+
+>[!theorem]
+>If $Ax=b$ is consistent and $x_{0}$ is a solution, then any other solutions is of the form $x=x_{0}+v$ for some $v\in \text{null}(A)$.
+
+>[!theorem]
+>Row operations do not change the null space or the row space. Column operations do not change the left null space or the column space.
+
+>[!theorem]
+>If $A\sim B$, and a set of columns of $A$ gives a basis for $\text{col}(A)$, then the corresponding set of columns of $B$ forms a basis for $\text{col}(B)$.
+
 >[!theorem]
 >$\dim \text{row}(A) = \dim \text{col}(A)$.
 >

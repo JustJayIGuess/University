@@ -278,7 +278,7 @@ TODO: Catchup!
 >>In general $\chi(K_{n})=n$.
 >
 >>[!seealso] Exercise.
->>If $G$ has $n$ vertices, but $G\ne K-n$, then $\chi(G)<n$.
+>>If $G$ has $n$ vertices, but $G\ne K_n$, then $\chi(G)<n$.
 
 >[!def]
 >Instead of just considering $\chi(G)$, we may consider the following function,
@@ -458,3 +458,39 @@ TODO: Catchup!
 >[!quote]
 >Graph theory is loaded with **zillions** of such statements.
 >	*- Tony Licata, 2024*
+
+# The Art Gallery Problem
+>[!question]
+> How can you cover all of the floorplan of an art gallery with unmoving security guards?
+
+>[!remark]
+>Any floor plan is a polygon, and any convex polygon needs only one guard.
+
+>[!question]
+>What is the minimum number of guards needed to be sure that a gallery whose floor plan is an $n$-gon is completely guarded.
+
+**Lower bounds.**
+If we find an $n$-gon in $\mathbb{R}^{2}$ that requires $k$ guards, then the answer is at least $k$.
+![[Graphs (MATH2222) 2024-05-15 13.20.52.excalidraw|300]]
+By the above polygon, we have that any $n$-gon gallery potentially requires at least $\lfloor\frac{n}{3}\rfloor$.
+
+>[!theorem]
+>Any $n$-gon can be guarded by $\lfloor \frac{n}{3}\rfloor$ guards.
+>>[!proof]
+>>It will follow from the proof that the guards can be placed at vertices.
+>>
+>>**Step -1**:
+>>If the gallery is a triangle, we may place a guard at any vertex to guard it.
+>>
+>>**Step 0**:
+>>We can triangulate our gallery by adding edges such that every face is a triangle except for the outer region (and the result is a plane graph).
+>>To prove this, we require that there must be a chord between two non-neighbouring vertices that lies completely in the gallery. This can be proven by the sweeping flashlight analogy.
+>>
+>>**Step 1**:
+>>The new triangulated graph $G$ can be three-coloured.
+>>This can be proven inductively by considering how we originally triangulated the graph. Split the graph into half and apply inductive hypothesis to the smaller graphs, then equate the required colours at the split.
+>>
+>>**Step 2**:
+>>Every triangle has one of each colour of the vertex, so by pigeonhole, there is some colour used on $\lfloor \frac{n}{3}\rfloor$ vertices. So put a guard on each of these vertices. Now each triangle is guarded, so the whole graph is guarded.
+
+
