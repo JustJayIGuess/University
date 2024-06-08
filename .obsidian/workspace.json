@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Modular Arithmetic.md",
+                "file": "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Modular Arithmetic.md",
+                "file": "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Modular Arithmetic.md",
+                "file": "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/Modular Arithmetic.md"
+                "file": "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md"
               }
             }
           },
@@ -167,6 +167,14 @@
   },
   "active": "6d23b46ced2e08a0",
   "lastOpenFiles": [
+    "First Year/Sem 1/MATH2222/Seminar - q-deformed Rational Numbers.md",
+    "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
+    "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
+    "First Year/Sem 1/MATH2222/FTA.md",
+    "First Year/Sem 1/MATH2222/Injection, Surjection and Cardinality Revision.md",
+    "First Year/Sem 1/MATH2222/Pigeonhole Principle.md",
+    "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
+    "First Year/Sem 1/MATH2222/Modular Arithmetic.md",
     "First Year/Sem 1/MATH2222/Equivalence Relations.md",
     "First Year/Sem 1/MATH2222/Divisibility Proofs and the Fundamental Theorem of Arithmetic.md",
     "First Year/Sem 1/MATH2222/Induction (MATH2222).md",
@@ -175,7 +183,6 @@
     "First Year/Sem 1/MATH2222/Proof Techniques (MATH2222).md",
     "First Year/Sem 1/MATH2222/Sets (MATH2222).md",
     "First Year/Sem 1/MATH2222/Useful Definitions and Proofs.md",
-    "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
     "First Year/Sem 1/MATH1115/Finite Taylor Polynomials.md",
     "First Year/Sem 1/MATH1115/Markov Chains.md",
     "First Year/Sem 1/MATH1115/Differential Equations.md",
@@ -186,13 +193,6 @@
     "First Year/Sem 1/MATH1115/Eigenvectors and Eigenvalues.md",
     "First Year/Sem 1/MATH1115/The Fundamental Theorems of Calculus.md",
     "First Year/Sem 1/MATH1115/Rank, Nullity and the Fundamental Matrix Spaces.md",
-    "First Year/Sem 1/MATH1115/Gaussian Elimination.md",
-    "First Year/Sem 1/MATH1115/Change of Basis.md",
-    "First Year/Sem 1/MATH1115/Continuity.md",
-    "First Year/Sem 1/MATH1115/Dimension.md",
-    "First Year/Sem 1/MATH1115/Integration.md",
-    "First Year/Sem 1/MATH1115/Inverses Functions (MATH1115).md",
-    "First Year/Sem 1/MATH1115/Coordinates and Basis.md",
     "First Year/Sem 1/MATH1115/attachments/an-emoji-disintegrating-in-pain.gif",
     "First Year/Sem 1/MATH1115/attachments/Pasted image 20240513165359.png",
     "Untitled.canvas",
