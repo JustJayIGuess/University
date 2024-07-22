@@ -203,11 +203,6 @@
 >>Now taking some connected graph $G$ that has no odd cycles.
 >>Now choose some spanning tree $T$ that spans $G$. We know that we can bipartition $T$ into $V(E) = V(T) = X\sqcup Y$. Now observe that if we add back an edge to the spanning tree and form a cycle, if the edge connects two vertices in $X$ or in $Y$, then the cycle will be odd, which contradicts the assumption on $G$. Therefore this bipartition is a valid bipartition of all of $G$.
 
----
-TODO: Catchup!
-
----
-
 >[!theorem]
 >*Hall's theorem* states that there is a matching of $X$ into $Y$ if and only if, for all subsets $T\subset X$,
 >$$\begin{align*}|T|&\le |N(T)|,\end{align*}$$

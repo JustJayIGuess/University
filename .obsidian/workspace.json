@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
-                "mode": "preview",
+                "file": "First Year/Sem 2/COMP1140/COMP1140.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
+                "file": "First Year/Sem 2/COMP1140/COMP1140.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
+                "file": "First Year/Sem 2/COMP1140/COMP1140.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md"
+                "file": "First Year/Sem 2/COMP1140/COMP1140.md"
               }
             }
           },
@@ -167,32 +167,38 @@
   },
   "active": "6d23b46ced2e08a0",
   "lastOpenFiles": [
-    "First Year/Sem 1/MATH2222/Seminar - q-deformed Rational Numbers.md",
-    "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
+    "First Year/Sem 2/COMP1600/Propositional Logic.md",
+    "First Year/Sem 2/COMP1600/COMP1600.md",
+    "First Year/Sem 2/COMP1600/Logic.md",
+    "First Year/Sem 2/MATH1116/Fields and Vector Spaces.md",
+    "First Year/Sem 2/MATH1116/Untitled.md",
+    "First Year/Sem 2/MATH1116/MATH1116.md",
+    "First Year/Sem 1/MATH1115/Functions (MATH1115).md",
+    "First Year/Sem 1/MATH1115/attachments/Limits 2024-03-08 11.13.58.excalidraw.md",
+    "First Year/Sem 1/MATH1115/attachments/Rolles Theorem.excalidraw.md",
+    "First Year/Sem 1/MATH1115/Diagonalization.md",
+    "First Year/Sem 1/MATH1115/Linear Algebra.md",
+    "First Year/Sem 2/PHYS1201/PHYS1201.md",
+    "First Year/Sem 2/COMP1140/COMP1140.md",
     "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
+    "First Year/Sem 2/MATH1116",
+    "First Year/Sem 2/PHYS1201",
+    "First Year/Sem 2/COMP1140",
+    "First Year/Sem 2/COMP1600",
+    "Sem 2",
+    "First Year/Sem 1/MATH1115/Applications of Matrix Transformations.md",
+    "First Year/Sem 1/MATH1115/Matrix Transformations.md",
+    "First Year/Sem 1/MATH1115/Operations on Vectors and Matrices.md",
+    "First Year/Sem 1/MATH1115/Numbers and Induction.md",
+    "Untitled 1.canvas",
+    "Excalidraw/Drawing 2024-06-21 18.30.46.excalidraw.md",
+    "First Year/Sem 1/MATH1115/Rank, Nullity and the Fundamental Matrix Spaces.md",
+    "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
+    "First Year/Sem 1/MATH2222/Seminar - q-deformed Rational Numbers.md",
     "First Year/Sem 1/MATH2222/FTA.md",
     "First Year/Sem 1/MATH2222/Injection, Surjection and Cardinality Revision.md",
     "First Year/Sem 1/MATH2222/Pigeonhole Principle.md",
     "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
-    "First Year/Sem 1/MATH2222/Modular Arithmetic.md",
-    "First Year/Sem 1/MATH2222/Equivalence Relations.md",
-    "First Year/Sem 1/MATH2222/Divisibility Proofs and the Fundamental Theorem of Arithmetic.md",
-    "First Year/Sem 1/MATH2222/Induction (MATH2222).md",
-    "First Year/Sem 1/MATH2222/Cardinality, Injection, Surjection and Bijection.md",
-    "First Year/Sem 1/MATH2222/Functions (MATH2222).md",
-    "First Year/Sem 1/MATH2222/Proof Techniques (MATH2222).md",
-    "First Year/Sem 1/MATH2222/Sets (MATH2222).md",
-    "First Year/Sem 1/MATH2222/Useful Definitions and Proofs.md",
-    "First Year/Sem 1/MATH1115/Finite Taylor Polynomials.md",
-    "First Year/Sem 1/MATH1115/Markov Chains.md",
-    "First Year/Sem 1/MATH1115/Differential Equations.md",
-    "First Year/Sem 1/MATH1115/Log and Exponential Functions (MATH1115).md",
-    "First Year/Sem 1/MATH1115/Diagonalization.md",
-    "First Year/Sem 1/MATH1115/Trigonometric Functions (MATH1115.md",
-    "First Year/Sem 1/MATH1115/Applications of Integrals (MATH1115).md",
-    "First Year/Sem 1/MATH1115/Eigenvectors and Eigenvalues.md",
-    "First Year/Sem 1/MATH1115/The Fundamental Theorems of Calculus.md",
-    "First Year/Sem 1/MATH1115/Rank, Nullity and the Fundamental Matrix Spaces.md",
     "First Year/Sem 1/MATH1115/attachments/an-emoji-disintegrating-in-pain.gif",
     "First Year/Sem 1/MATH1115/attachments/Pasted image 20240513165359.png",
     "Untitled.canvas",
@@ -202,11 +208,6 @@
     "First Year/Sem 1/MATH1115/attachments",
     "First Year/Sem 1/PHYS1101/attachments",
     "First Year/Sem 1/COMP1130",
-    "Excalidraw",
-    "First Year/Sem 1/MATH1115/Calculus - Spivak_text.pdf",
-    "First Year/Sem 1/MATH1115/Calculus - Spivak_text.pdf.crdownload",
-    "First Year/Sem 1/MATH1115/Calculus (4th ed.) - Spivak, Michael_8039.pdf",
-    "First Year/Sem 1/PHYS1101",
     "Excalidraw/Drawing 2024-02-17 12.35.44.excalidraw.png",
     "Physics/Notes/4.2 Quantum Theory/Physics Investigation Planning.canvas",
     "Physics/Notes/3.2 Electromagnetism/attachments/transformers_PNG76.png",
