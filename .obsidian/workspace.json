@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 2/COMP1140/COMP1140.md",
+                "file": "First Year/Sem 2/PHYS1201/The Euler-Lagrange Equation.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 2/COMP1140/COMP1140.md",
+                "file": "First Year/Sem 2/PHYS1201/The Euler-Lagrange Equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 2/COMP1140/COMP1140.md",
+                "file": "First Year/Sem 2/PHYS1201/The Euler-Lagrange Equation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 2/COMP1140/COMP1140.md"
+                "file": "First Year/Sem 2/PHYS1201/The Euler-Lagrange Equation.md"
               }
             }
           },
@@ -167,6 +167,9 @@
   },
   "active": "6d23b46ced2e08a0",
   "lastOpenFiles": [
+    "First Year/Sem 2/PHYS1201/PHYS1201.md",
+    "First Year/Sem 2/PHYS1201/The Euler-Lagrange Equation.md",
+    "First Year/Sem 2/COMP1140/COMP1140.md",
     "First Year/Sem 2/COMP1600/Propositional Logic.md",
     "First Year/Sem 2/COMP1600/COMP1600.md",
     "First Year/Sem 2/COMP1600/Logic.md",
@@ -178,8 +181,6 @@
     "First Year/Sem 1/MATH1115/attachments/Rolles Theorem.excalidraw.md",
     "First Year/Sem 1/MATH1115/Diagonalization.md",
     "First Year/Sem 1/MATH1115/Linear Algebra.md",
-    "First Year/Sem 2/PHYS1201/PHYS1201.md",
-    "First Year/Sem 2/COMP1140/COMP1140.md",
     "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
     "First Year/Sem 2/MATH1116",
     "First Year/Sem 2/PHYS1201",
@@ -198,7 +199,6 @@
     "First Year/Sem 1/MATH2222/FTA.md",
     "First Year/Sem 1/MATH2222/Injection, Surjection and Cardinality Revision.md",
     "First Year/Sem 1/MATH2222/Pigeonhole Principle.md",
-    "First Year/Sem 1/MATH2222/Counting in Finite Sets.md",
     "First Year/Sem 1/MATH1115/attachments/an-emoji-disintegrating-in-pain.gif",
     "First Year/Sem 1/MATH1115/attachments/Pasted image 20240513165359.png",
     "Untitled.canvas",
