@@ -76,3 +76,4 @@ Then in $\hat{e}_{r}$, we have,
 $$\begin{align*}
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{r}}\right) &= m\ddot{r} = m\dot{\theta}(2r\ddot{\theta} + \dot{\theta}) = \frac{\partial L}{\partial r}
 \end{align*}$$
+
