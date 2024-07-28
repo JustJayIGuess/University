@@ -28,3 +28,24 @@
 >\end{align*}$$
 >These operations satisfy the conditions to form a field, so $\mathbb{F}_{\le n}[x]$ and $\mathbb{F}[x]$ form a fields.
 
+>[!def]
+>A *zero*, or *root* of a polynomial $f(x)\in F[x]$ is a zero of the associated polynomial function.
+
+>[!theorem]
+>$b$ is a root of $f$ if and only if $f(x) = (x-b)\cdot g(x)$
+>>[!corollary]
+>>If $f\in F[x]$, and $\deg(f)=n$, then $f$ has at most $n$ roots.
+
+>[!def]
+>We can define $\mathbb{C}$ as,
+>$$\begin{align*}
+>\mathbb{C} &= \mathbb{R}(i) = \left\{a+bi \mid a,b\in \mathbb{R}\right\},\quad i^{2}+1=0
+>\end{align*}$$
+>We can show that $\mathbb{C}$ is a field under the most obvious definitions of addition and multiplication.
+
+>[!theorem]
+>*The Fundamental Theorem of Algebra*
+>$\mathbb{C}$ is algebraically closed.
+>I.e., $\forall f\in \mathbb{C}[x]\quad f(x)=a_{0}+x_{1}x+\cdots+c_{n}x^{n},\quad a_{i}\in \mathbb{C}$, $\exists b\in \mathbb{C},\quad f(b)=0$.
+>I.e., $f(x) = c(x-b_{1})(x-b_{2})\cdots(x-b_{n})$, $c,b_{i}\in \mathbb{C}$.
+

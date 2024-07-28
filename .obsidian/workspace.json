@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "746852bab9ab64e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "First Year/Sem 2/MATH1116/Vector Spaces (MATH1116).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 2/MATH1116/Polynomials as Formal Objects.md",
+                "file": "First Year/Sem 2/MATH1116/Vector Spaces (MATH1116).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 2/MATH1116/Polynomials as Formal Objects.md",
+                "file": "First Year/Sem 2/MATH1116/Vector Spaces (MATH1116).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 2/MATH1116/Polynomials as Formal Objects.md"
+                "file": "First Year/Sem 2/MATH1116/Vector Spaces (MATH1116).md"
               }
             }
           },
@@ -178,11 +190,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a9a59f7292a52840",
+  "active": "746852bab9ab64e9",
   "lastOpenFiles": [
+    "First Year/Sem 2/MATH1116/Polynomials as Formal Objects.md",
+    "First Year/Sem 2/MATH1116/Vector Spaces (MATH1116).md",
     "First Year/Sem 2/MATH1116/Fields and Vector Spaces.md",
     "First Year/Sem 2/MATH1116/Infinite Sequences (MATH1116.md",
-    "First Year/Sem 2/MATH1116/Polynomials as Formal Objects.md",
     "First Year/Sem 1/MATH1115/Infinite Sequences.md",
     "First Year/Sem 2/MATH1116/MATH1116.md",
     "First Year/Sem 2/PHYS1201/The Euler-Lagrange Equation.md",
@@ -211,7 +224,6 @@
     "First Year/Sem 1/MATH1115/Rank, Nullity and the Fundamental Matrix Spaces.md",
     "First Year/Sem 1/MATH2222/The Rational Numbers (MATH2222).md",
     "First Year/Sem 1/MATH2222/Seminar - q-deformed Rational Numbers.md",
-    "First Year/Sem 1/MATH2222/FTA.md",
     "First Year/Sem 1/MATH1115/attachments/an-emoji-disintegrating-in-pain.gif",
     "First Year/Sem 1/MATH1115/attachments/Pasted image 20240513165359.png",
     "Untitled.canvas",
