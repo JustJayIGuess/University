@@ -488,4 +488,3 @@ By the above polygon, we have that any $n$-gon gallery potentially requires at l
 >>**Step 2**:
 >>Every triangle has one of each colour of the vertex, so by pigeonhole, there is some colour used on $\lfloor \frac{n}{3}\rfloor$ vertices. So put a guard on each of these vertices. Now each triangle is guarded, so the whole graph is guarded.
 
-
