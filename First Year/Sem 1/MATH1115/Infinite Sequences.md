@@ -12,7 +12,7 @@ F\text{ defined by }f_{1} = 1, f_{2}=1,f_n=f_{n-1}+f_{n-2}
 
 # Convergence
 >[!def]
->$S$ *converges* to $L$ if for all $\epsilon>0$, there exists some $N\in \mathbb{N}$ such that for $n>N$ it is impled that $|s_{n}-L|<\epsilon$.
+>$S$ *converges* to $L$ if for all $\epsilon>0$, there exists some $N\in \mathbb{N}$ such that for $n>N$ it is implied that $|s_{n}-L|<\epsilon$.
 >We may equivalently write,
 >$$\begin{align*}\lim_{n \rightarrow \infty}s_{n} = L\end{align*}$$
 
