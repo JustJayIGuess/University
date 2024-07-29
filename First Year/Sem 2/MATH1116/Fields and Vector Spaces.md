@@ -25,12 +25,3 @@
 >[!remark]
 >We may also consider set of residues of integers $\mathbb{F}_{p} = \left\{[a] \mid a=0,1,\cdots,p-1\right\}$ for a prime $p$ or for $p=q^{k}$ for a prime $q$ and natural number $k$.
 >If we define addition such that $[a]+[b]:=[a+b]$, and multiplication such that $[a]\cdot[b] = [a\cdot b]$, then $\mathbb{F}_{p}$ is a *finite field*.
-
->[!def]
->A *polynomial* over a field $\mathbb{F}$, $(a_{0},a_{1},\cdots, a_{n}, \cdots)$, with $a_{i}\in \mathbb{F}$ and finitely many $a_{i}\ne 0$, is a mathematical object $f(x) = a_{0}x^{0} + a_{1}x_{1}+\cdots+a_{n}x^{n} +\cdots$.
->Given a polynomial, we may make a *polynomial function* by declaring,
->$$\begin{align*}
->f(x)\in F[x]\mapsto f(b) &= a_{0}+a_{1}b+a_{2}b^{2}+\cdots\\
->f &: F \longrightarrow F.
-\end{align*}$$
-
