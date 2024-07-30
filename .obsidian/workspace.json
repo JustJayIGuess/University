@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 2/MATH1116/Infinite Series (MATH1116).md",
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 2/MATH1116/Infinite Series (MATH1116).md",
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 2/MATH1116/Infinite Series (MATH1116).md",
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 2/MATH1116/Infinite Series (MATH1116).md"
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md"
               }
             }
           },
@@ -165,10 +165,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4c0756e55c6d3875",
+  "active": "6d23b46ced2e08a0",
   "lastOpenFiles": [
-    "First Year/Sem 2/MATH1116/MATH1116.md",
+    "First Year/Sem 2/PHYS1201/attachments/Pasted image 20240730133303.png",
+    "First Year/Sem 2/PHYS1201/attachments",
     "First Year/Sem 2/MATH1116/Infinite Series (MATH1116).md",
+    "conflict-files-obsidian-git.md",
+    "Untitled 2.canvas",
+    "First Year/Sem 2/COMP1600/Untitled.md",
+    "First Year/Sem 2/COMP1600/Dafny.md",
+    "First Year/Sem 2/COMP1140/Types.md",
+    "First Year/Sem 2/COMP1140/Programming Paradigms.md",
+    "First Year/Sem 2/COMP1140/Expressions.md",
+    "First Year/Sem 2/MATH1116/MATH1116.md",
     "First Year/Sem 2/MATH1116/Infinite Sequences (MATH1116).md",
     "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
     "First Year/Sem 2/PHYS1201/PHYS1201.md",
@@ -186,18 +195,11 @@
     "First Year/Sem 2/COMP1600/Logic.md",
     "First Year/Sem 1/MATH1115/Functions (MATH1115).md",
     "First Year/Sem 1/MATH1115/attachments/Limits 2024-03-08 11.13.58.excalidraw.md",
-    "First Year/Sem 1/MATH1115/attachments/Rolles Theorem.excalidraw.md",
-    "First Year/Sem 1/MATH1115/Diagonalization.md",
-    "First Year/Sem 1/MATH1115/Linear Algebra.md",
-    "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
     "First Year/Sem 2/MATH1116",
     "First Year/Sem 2/PHYS1201",
     "First Year/Sem 2/COMP1140",
     "First Year/Sem 2/COMP1600",
     "Sem 2",
-    "First Year/Sem 1/MATH1115/Applications of Matrix Transformations.md",
-    "First Year/Sem 1/MATH1115/Matrix Transformations.md",
-    "First Year/Sem 1/MATH1115/Operations on Vectors and Matrices.md",
     "Untitled 1.canvas",
     "First Year/Sem 1/MATH1115/attachments/an-emoji-disintegrating-in-pain.gif",
     "First Year/Sem 1/MATH1115/attachments/Pasted image 20240513165359.png",
@@ -207,7 +209,6 @@
     "First Year/Sem 1/MATH2222/attachments",
     "First Year/Sem 1/MATH1115/attachments",
     "First Year/Sem 1/PHYS1101/attachments",
-    "First Year/Sem 1/COMP1130",
     "Excalidraw/Drawing 2024-02-17 12.35.44.excalidraw.png",
     "Physics/Notes/4.2 Quantum Theory/Physics Investigation Planning.canvas",
     "Physics/Notes/3.2 Electromagnetism/attachments/transformers_PNG76.png",
