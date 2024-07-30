@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 2/COMP1600/Propositional Logic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10d02a701170bdb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201.md"
               }
             }
           },
@@ -178,44 +164,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "10d02a701170bdb4",
+  "active": "6d23b46ced2e08a0",
   "lastOpenFiles": [
-    "First Year/Sem 2/COMP1600/Propositional Logic.md",
-    "conflict-files-obsidian-git.md",
     "First Year/Sem 2/PHYS1201/The Euler-Lagrange Equation.md",
-    "First Year/Sem 2/MATH1116/Polynomials as Formal Objects.md",
-    "First Year/Sem 2/MATH1116/Infinite Sequences (MATH1116.md",
-    "Untitled 2.canvas",
-    "First Year/Sem 2/COMP1600/Untitled.md",
-    "First Year/Sem 2/COMP1600/Dafny.md",
-    "First Year/Sem 2/COMP1600/COMP1600.md",
-    "First Year/Sem 2/COMP1600/Logic.md",
-    "First Year/Sem 1/MATH2222/Graphs (MATH2222).md",
-    "First Year/Sem 2/COMP1140/COMP1140.md",
-    "First Year/Sem 2/COMP1140/Expressions.md",
-    "First Year/Sem 2/COMP1140/Types.md",
-    "First Year/Sem 2/COMP1140/Programming Paradigms.md",
-    "First Year/Sem 2/MATH1116/Fields and Vector Spaces.md",
-    "First Year/Sem 2/MATH1116/Untitled.md",
     "First Year/Sem 2/MATH1116/MATH1116.md",
-    "First Year/Sem 1/MATH1115/Functions (MATH1115).md",
-    "First Year/Sem 1/MATH1115/attachments/Limits 2024-03-08 11.13.58.excalidraw.md",
-    "First Year/Sem 1/MATH1115/attachments/Rolles Theorem.excalidraw.md",
+    "Homepage.md",
+    "Untitled.canvas",
+    "Untitled 2.canvas",
+    "First Year/Sem 1/MATH1115/Finite Taylor Polynomials.md",
+    "Untitled 1.canvas",
+    "First Year/Sem 1/MATH1115/Elementary Matrices and Square Matrix Theorems.md",
+    "First Year/Sem 1/MATH1115/Eigenvectors and Eigenvalues.md",
+    "First Year/Sem 1/MATH1115/Dimension.md",
+    "First Year/Sem 1/MATH1115/Differentiation (MATH1115).md",
+    "First Year/Sem 1/MATH1115/Differential Equations.md",
     "First Year/Sem 1/MATH1115/Diagonalization.md",
-    "First Year/Sem 1/MATH1115/Linear Algebra.md",
-    "First Year/Sem 2/PHYS1201/PHYS1201.md",
+    "First Year/Sem 1/MATH1115/Determinants.md",
+    "First Year/Sem 1/MATH1115/Coordinates and Basis.md",
+    "First Year/Sem 1/MATH1115/Continuity.md",
+    "First Year/Sem 1/MATH1115/Complex Vectors.md",
+    "First Year/Sem 1/MATH1115/Complex Numbers.md",
+    "First Year/Sem 1/MATH1115/Change of Basis.md",
+    "First Year/Sem 1/MATH1115/Calculus.md",
+    "First Year/Sem 1/MATH1115/Axioms for Numbers.md",
+    "First Year/Sem 1/MATH1115/Augmented Matrix.md",
+    "First Year/Sem 1/MATH1115/Applications of Matrix Transformations.md",
+    "First Year/Sem 1/MATH1115/Applications of Integrals (MATH1115).md",
+    "First Year/Sem 1/COMP1130/attachments/Lambda Calculus 2024-04-23 20.54.26.excalidraw.md",
+    "First Year/Sem 1/COMP1130/Untyped Lambda Calculus.md",
+    "First Year/Sem 1/COMP1130/Type Signatures.md",
+    "First Year/Sem 1/COMP1130/Simply Typed Lambda Calculus.md",
+    "First Year/Sem 1/COMP1130/Sets (COMP1130).md",
     "First Year/Sem 2/MATH1116",
     "First Year/Sem 2/PHYS1201",
     "First Year/Sem 2/COMP1140",
     "First Year/Sem 2/COMP1600",
     "Sem 2",
-    "First Year/Sem 1/MATH1115/Applications of Matrix Transformations.md",
-    "First Year/Sem 1/MATH1115/Matrix Transformations.md",
-    "First Year/Sem 1/MATH1115/Operations on Vectors and Matrices.md",
-    "Untitled 1.canvas",
     "First Year/Sem 1/MATH1115/attachments/an-emoji-disintegrating-in-pain.gif",
     "First Year/Sem 1/MATH1115/attachments/Pasted image 20240513165359.png",
-    "Untitled.canvas",
     "First Year/Sem 1/PHYS1101/attachments/Pasted image 20240428172007.png",
     "First Year/Sem 1/COMP1130/attachments",
     "First Year/Sem 1/MATH2222/attachments",
