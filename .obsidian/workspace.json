@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1b9e52b1d1620a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -165,13 +178,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6d23b46ced2e08a0",
+  "active": "d1b9e52b1d1620a3",
   "lastOpenFiles": [
+    "First Year/Sem 2/PHYS1201/PHYS1201.md",
+    "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
+    "conflict-files-obsidian-git.md",
+    "First Year/Sem 2/COMP1140/The Java Call Stack.md",
+    "First Year/Sem 2/COMP1140/Recursion (COMP1140).md",
     "First Year/Sem 2/PHYS1201/attachments/Pasted image 20240730191820.png",
     "First Year/Sem 2/PHYS1201/attachments/Pasted image 20240730133303.png",
     "First Year/Sem 2/PHYS1201/attachments",
     "First Year/Sem 2/MATH1116/Infinite Series (MATH1116).md",
-    "conflict-files-obsidian-git.md",
     "Untitled 2.canvas",
     "First Year/Sem 2/COMP1600/Untitled.md",
     "First Year/Sem 2/COMP1600/Dafny.md",
@@ -180,8 +197,6 @@
     "First Year/Sem 2/COMP1140/Expressions.md",
     "First Year/Sem 2/MATH1116/MATH1116.md",
     "First Year/Sem 2/MATH1116/Infinite Sequences (MATH1116).md",
-    "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
-    "First Year/Sem 2/PHYS1201/PHYS1201.md",
     "First Year/Sem 1/MATH1115/Complex Numbers.md",
     "First Year/Sem 2/MATH1116/Polynomials as Formal Objects.md",
     "First Year/Sem 2/MATH1116/Infinite Sequences (MATH1116.md",
@@ -195,7 +210,6 @@
     "First Year/Sem 2/COMP1600/COMP1600.md",
     "First Year/Sem 2/COMP1600/Logic.md",
     "First Year/Sem 1/MATH1115/Functions (MATH1115).md",
-    "First Year/Sem 1/MATH1115/attachments/Limits 2024-03-08 11.13.58.excalidraw.md",
     "First Year/Sem 2/MATH1116",
     "First Year/Sem 2/PHYS1201",
     "First Year/Sem 2/COMP1140",
@@ -216,7 +230,6 @@
     "Physics/Notes/3.2 Electromagnetism/attachments/Pasted image 20231011101306.png",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
     "Physics/Notes/3.2 Electromagnetism/attachments/Pasted image 20231003185029.png",
-    "Chemistry/Periodic Table.png",
     "Applications/Breakthrough Challenge Planning.canvas",
     "Japanese/Exam Response Planning.canvas",
     "Chemistry/Assignments/Chem Research Investigation Planning.canvas"

@@ -160,3 +160,46 @@
 >>We may note that any formula using these connectives will map to false whenever all variables are assigned false.
 >>So the negation operator cannot be encoded.
 
+>[!def]
+>A *signature* is a set of function symbols with arities. *Terms* over a set of variables are given by:
+>- all variables $x\in V$ is a term
+>- if $t_{1},\cdots,t_{n}$ are terms and $f\in\Sigma$ is $n$-ary, then $f(t_{1},\cdots,t_{n})$ is a term.
+>
+>>[!example]
+>>$\Sigma = \left\{+,*\right\}$, then we have $x,x+y,x*y,y*(x+x)$ are terms.
+>>
+
+# Quantifiers
+>[!example]
+>$$\text{even}(n) \equiv \exists k.n = 2k$$
+>$$\text{div}(n,k) \equiv \exists l.k = nl$$
+>$$\text{prime}(p) \equiv \forall n.\text{div}(n,p)\rightarrow n=p\lor n=1$$
+
+>[!example]
+>$$\forall x.\forall y.\neg\text{even}(x)\land \neg\text{even}(y) \rightarrow \text{even}(x+y)$$
+>The universal quantifier has bound the variables so that the truth of this predicate is no longer dependent on $x,y$.
+
+>[!def]
+>*Formulae* (with a signature $\Sigma$, set $\Delta$ of predicate symbols with arities and a set $V$ of variables) are given by:
+>- $t_{1} = t_{2}$ is a formula if $t_{1},t_{2}$ are terms
+>- if $\phi,\psi$ are formulae, then so are $\phi\land \psi,\ \phi\lor\psi,\ \phi \rightarrow \psi\ \neg\psi$ are all formulae
+>- if $t_{1},\cdots,t_{n}$ are terms and $p\in \Delta$ is $n$-ary, then $p(t_{1},\cdots,t_{n})$ is a formula
+>- if $\phi$ is a formula and $x\in V$, then so are $\forall x.\phi$ and $\exists x.\phi$
+
+>[!remark]
+>Quantifiers may be nullary.
+
+<!-- crazy? i was crazy once. they put me in a room. a rubber room. a rubber room with rats. the rats made me crazy. crazy? i was crazy once. they put me in a room. a rubber room. a rubber room with rats. the rats made me crazy. -->
+
+>[!remark]
+>As variables can be bound to quantifiers, formulae such as $\exists x.x=2$ do not depend on any variables (even, in this case, $x$).
+
+>[!example]
+>With $P(x,y)=x+y=42$, $f(x)=x^{2}$, $x=17,y=5$ and all variables in $\mathbb{Z}$
+>- $P(x,y)$ is false
+>- $P(f(x),y)$ is false
+>- $\exists x.P(x,y)$ is true
+>- $\forall x.P(x,y)$ is false
+>- $\exists x.\exists y.P(x,y) \rightarrow P(y,x)$ is true
+>- $\exists x.P(x,y) \rightarrow P(x,y)$ is true
+>- $\forall x. \exists y.P(x,y)$ is true

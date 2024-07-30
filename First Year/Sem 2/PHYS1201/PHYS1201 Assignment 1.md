@@ -42,7 +42,7 @@ L &= \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}^{2}) + \frac{GmM_{T}}{r}
 So we have a conserved canonical momentum,
 $$\begin{align*}
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{\theta}}\right) &= 0\\
-\frac{d}{dt}(mr^{2}\dot{\theta}) &= 0
+\frac{d}{dt}(mr^{2}\dot{\theta}) &= 0.
 \end{align*}$$
 So the canonical momentum $p_{\theta} = mr^{2}\dot{\theta} = |\mathcal{L}|$ is conserved.
 So then $|\mathcal{L}| = mr^{2}\dot{\theta} = mb|\vec{v}_{0}|$. We can rearrange this to show,
@@ -71,3 +71,13 @@ A = b^{2}\vec{v_{0}}^{2}&,\quad B=GM_{T}m.
 
 The plotted graph shows that the closest approach of the asteroid is at $1\times 10^{7}\text{m}$. The radius of the Earth is $\frac{d}{2} = \frac{12.7}{2}\times 10^{6} = 6.35\times 10^{6}\text{m}$, so the asteroid will not hit the Earth.
 The graph has a slope of $\dot{r} = \frac{0 - 3\times 10^{7}}{3\times 10^{3}} = 10^{4}\text{m/s} = 3.6\times10^{5}\text{km/hr}$. So then $|\vec{v}_{0}| \approx 10^{4}\text{m/s}$.
+$$\begin{align*}
+\dot{\theta} &= \frac{b|\vec{v}_{0}|}{r^{2}}\\
+&= \frac{(1.3\times10^{7})(10^{4})}{(10^{7})^{2}}\\
+&= 1.3\times 10^{-3}\text{rad/s}
+\end{align*}$$
+Then, as $\vec{v} = \dot{r}\hat{e}_{r} + r\dot{\theta}\hat{e}_{\theta}$ and $\dot{r}\approx 0$. So $|\vec{v}| \approx r\dot{\theta}\hat{e}_{\theta}$.
+$$\begin{align*}
+|\vec{v}| &\approx 1\times10^{7}\times 1.3\times 10^{-3}\\
+|\vec{v}|&\approx 1.3\times 10^{4}\text{m/s}.
+\end{align*}$$
