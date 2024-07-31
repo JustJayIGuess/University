@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -167,6 +168,7 @@
   "active": "6d23b46ced2e08a0",
   "lastOpenFiles": [
     "First Year/Sem 2/PHYS1201/The Euler-Lagrange Equation.md",
+    "First Year/Sem 2/PHYS1201/PHYS1201.md",
     "First Year/Sem 2/MATH1116/MATH1116.md",
     "Homepage.md",
     "Untitled.canvas",
@@ -194,7 +196,6 @@
     "First Year/Sem 1/COMP1130/Untyped Lambda Calculus.md",
     "First Year/Sem 1/COMP1130/Type Signatures.md",
     "First Year/Sem 1/COMP1130/Simply Typed Lambda Calculus.md",
-    "First Year/Sem 1/COMP1130/Sets (COMP1130).md",
     "First Year/Sem 2/MATH1116",
     "First Year/Sem 2/PHYS1201",
     "First Year/Sem 2/COMP1140",
