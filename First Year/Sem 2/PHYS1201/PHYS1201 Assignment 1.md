@@ -1,6 +1,7 @@
 >Jay Johnston, u7922560
 
->[!Collab]
+>[!Collaboration Statement]
+>I collaborated with Tim Law on this assignment.
 
 >[!question] Question 1.
 >Show that the Lagrangian is $L = \frac{1}{2}m\left(\dot{r}^{2} + r^{2}\dot{\theta}^{2}\right) + \frac{GmM_{T}}{r}$.
