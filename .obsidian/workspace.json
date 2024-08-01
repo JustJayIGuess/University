@@ -11,8 +11,12 @@
             "id": "3074efabaee26348",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md"
+              }
             }
           },
           {
@@ -160,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,7 +182,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b24d84814d2f120c",
+  "active": "3074efabaee26348",
   "lastOpenFiles": [
     "First Year/Sem 2/PHYS1201/PHYS1201.md",
     "conflict-files-obsidian-git.md",

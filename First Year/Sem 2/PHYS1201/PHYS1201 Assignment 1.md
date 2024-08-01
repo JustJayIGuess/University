@@ -1,3 +1,7 @@
+>Jay Johnston, u7922560
+
+>[!Collab]
+
 >[!question] Question 1.
 >Show that the Lagrangian is $L = \frac{1}{2}m\left(\dot{r}^{2} + r^{2}\dot{\theta}^{2}\right) + \frac{GmM_{T}}{r}$.
 
@@ -79,5 +83,6 @@ $$\begin{align*}
 Then, as $\vec{v} = \dot{r}\hat{e}_{r} + r\dot{\theta}\hat{e}_{\theta}$ and $\dot{r}\approx 0$. So $|\vec{v}| \approx r\dot{\theta}\hat{e}_{\theta}$.
 $$\begin{align*}
 |\vec{v}| &\approx 1\times10^{7}\times 1.3\times 10^{-3}\\
-|\vec{v}|&\approx 1.3\times 10^{4}\text{m/s}.
+|\vec{v}|&\approx 1.3\times 10^{4}\text{m/s}\\
+&\approx 13\text{km/s}.
 \end{align*}$$
