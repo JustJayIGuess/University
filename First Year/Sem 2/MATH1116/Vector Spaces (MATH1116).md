@@ -140,4 +140,15 @@
 >>$T_{A} : F^{n} \longrightarrow F^{m},\quad v\longmapsto Av,\ A\in M_{m\times n}(F)$.
 >>$C'(\mathbb{R}) \longrightarrow C(\mathbb{R}),\quad f\longmapsto f'$.
 >>$C[a,b] \longrightarrow \mathbb{R},\quad f\longmapsto \int_{a}^{b}f(x)dx$.
+>>$F[x] \longrightarrow F,\quad p\longmapsto p(1)$.
+>>$F\longrightarrow V,\quad \alpha\longmapsto \alpha v$.
+
+>[!remark]
+>If $T$ is linear, then $T(0_{V}) = T(0_{V}) + T(0_{V}) = 0_{W}$.
+
+>[!def]
+>The *kernel* of $T$ is $\ker(T) = \left\{v\in V \mid T(V)=0\right\}$, and the *image* of $T$ is $\text{im}(T) = \left\{w\in W \mid \exists v.T(v)=w\right\}$.
+
+
+>[!the]
 
