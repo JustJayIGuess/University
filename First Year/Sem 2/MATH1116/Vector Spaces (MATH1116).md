@@ -125,4 +125,19 @@
 >with $(u_{1}, w_{1}) + (u_{2}, w_{2}) := (u_{1} + u_{2}, w_{1} + w_{2})$, and $\alpha(u, w) = (\alpha u, \alpha w)$.
 
 >[!remark]
->If $Z$ is contained in $A$ and also contained in $B$, then it must be contained in $A\cap B$. Also, if $Z$ contains $A$ and contains $B$, then it must contain $A\cup B$.
+>If $Z$ is contained in $A$ and also contained in $B$, then it must be contained in $A\cap B$. Also, if $Z$ contains $A$ and contains $B$, then it must contain $A\cup B$. We call $A\cap B$ the *meet* and $A\cup B$ the *join*.
+>
+>Now take $Q(V) = \left\{W\subset V \mid W\text{ subspace}\right\}$.
+>We can have the meet be $V\cap W$, so that any other subspace $U$ which is both in $V$ and $W$ must be in the meet.
+>However, we cannot always have a join if defined as $V\cup W$, as this is not always a subspace. We can instead define the join to be $V+W$, and this in fact works.
+
+>[!def]
+>$T : V \longrightarrow W$, for vector spaces $V,W/F$ is a linear map if and only if:
+>- $T(u+w) = T(u) + T(w)\quad\forall u,w\in V$
+>- $T(\alpha\cdot v) = \alpha\cdot T(v)\quad\forall v\in V,\ \alpha\in F$.
+> 
+>>[!example]
+>>$T_{A} : F^{n} \longrightarrow F^{m},\quad v\longmapsto Av,\ A\in M_{m\times n}(F)$.
+>>$C'(\mathbb{R}) \longrightarrow C(\mathbb{R}),\quad f\longmapsto f'$.
+>>$C[a,b] \longrightarrow \mathbb{R},\quad f\longmapsto \int_{a}^{b}f(x)dx$.
+
