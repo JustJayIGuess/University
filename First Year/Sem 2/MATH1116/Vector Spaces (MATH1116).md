@@ -82,4 +82,7 @@
 >>$$\begin{align*}
 >>\dim(V) &= |B|,\quad B\text{ basis of }V.
 >>\end{align*}$$
+>
+>>[!corollary]
+>>If $W$ is a subspace of $V$, and $\dim(W) = \dim(V)$, then $W=V$.
 
