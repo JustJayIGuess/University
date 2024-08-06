@@ -179,3 +179,5 @@
 >f(v_{i}) &= w_{i}
 >\end{align*}$$
 >Then there exists a unique linear map $T : V \longrightarrow W$ such that $T|_{B} = f$.
+>This can be proven from the properties of a linear map.
+
