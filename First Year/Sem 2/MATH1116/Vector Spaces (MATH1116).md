@@ -150,5 +150,32 @@
 >The *kernel* of $T$ is $\ker(T) = \left\{v\in V \mid T(V)=0\right\}$, and the *image* of $T$ is $\text{im}(T) = \left\{w\in W \mid \exists v.T(v)=w\right\}$.
 
 
->[!the]
+>[!theorem]
+>$\text{im}(T)$ and $\ker(T)$ are subspaces.
+>
+>>[!proof]
+>>This can be shown simply through demonstarting all subspace axioms in both cases/
 
+>[!theorem]
+>A linear map is injective if and only if $\ker(T) = \left\{0\right\}$, and is surjective if and only if $\text{im}(T) = W$.
+>
+>>[!proof]
+>>If $\ker(T)=\left\{0\right\}$, then only zero may map to zero.
+>>Now suppose that $T(v)=T(u)$.
+>>$$\begin{align*}
+>>T(v)-T(u)&= 0\\
+>>T(v-u)&= 0\\
+>>v-u&\in\ker(T)\\
+>>v-u &= 0\\
+>>v &= u.
+>>\end{align*}$$
+>>So then to show that $T$ is injective we need only show that $\ker(T)=\left\{0\right\}$.
+>>The other parts of this proof are more simple.
+
+>[!theorem]
+>Suppose $V,W$ v.s. $/F$, and that $B = \left\{v_{1},\cdots,v_{n}\right\}\subset V$ is a finite basis.
+>$$\begin{align*}
+>f &: B \longrightarrow V\\
+>f(v_{i}) &= w_{i}
+>\end{align*}$$
+>Then there exists a unique linear map $T : V \longrightarrow W$ such that $T|_{B} = f$.
