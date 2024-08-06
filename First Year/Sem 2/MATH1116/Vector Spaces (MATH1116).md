@@ -99,3 +99,19 @@
 >>\end{align*}$$
 >>Now we have a new basis with an extra element, so the dimension is increased. So $k$ is decreased and we may apply induction.
 
+>[!theorem]
+>Let $V$ be a vector space, and $U,W\subset V$ be subspaces.
+>Then $U+W := \left\{u+w \mid u\in U,w\in W\right\}$.
+>Then $U+W$ is a subspace of $V$.
+>
+>>[!proof]
+>>We can simply show that all $u+w$ follow the subspace axioms.
+
+>[!theorem]
+>$\dim(U+W) = \dim(U) + \dim(W) - \dim(U\cap W)$.
+>
+>>[!proof]
+>>We first have some basis $B$ of $W\cap U$. We may extend this to a new basis $C$ of $W$, and a new basis $D$ of $U$.
+>>Now let $E = C\cup D$. We can show that $E$ is a basis of $U+W$.
+>>From here the proof is clear.
+
