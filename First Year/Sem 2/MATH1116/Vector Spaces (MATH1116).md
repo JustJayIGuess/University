@@ -115,3 +115,11 @@
 >>Now let $E = C\cup D$. We can show that $E$ is a basis of $U+W$.
 >>From here the proof is clear.
 
+>[!def]
+>If $U\cap W = \left\{0\right\}$ we say that $U+W$ is a *direct sum*, denoted $U\oplus W$.
+>
+>We can also construct the direct sum of any two spaces.
+>$$\begin{align*}
+>U\oplus W := \left\{(u,w) \mid u\in U,w\in W\right\},
+>\end{align*}$$
+>with $(u_{1}, w_{1}) + (u_{2}, w_{2}) := $
