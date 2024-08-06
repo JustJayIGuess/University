@@ -122,4 +122,7 @@
 >$$\begin{align*}
 >U\oplus W := \left\{(u,w) \mid u\in U,w\in W\right\},
 >\end{align*}$$
->with $(u_{1}, w_{1}) + (u_{2}, w_{2}) := $
+>with $(u_{1}, w_{1}) + (u_{2}, w_{2}) := (u_{1} + u_{2}, w_{1} + w_{2})$, and $\alpha(u, w) = (\alpha u, \alpha w)$.
+
+>[!remark]
+>If $Z$ is contained in $A$ and also contained in $B$, then it must be contained in $A\cap B$. Also, if $Z$ contains $A$ and contains $B$, then it must contain $A\cup B$.
