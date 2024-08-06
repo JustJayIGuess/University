@@ -86,3 +86,16 @@
 >>[!corollary]
 >>If $W$ is a subspace of $V$, and $\dim(W) = \dim(V)$, then $W=V$.
 
+>[!remark]
+>$\mathbb{C}$ is a vector space over $\mathbb{R}$. We have a $\mathbb{R}$-basis of $\mathbb{C}$, $\left\{1, i\right\}$, so then $\dim_\mathbb{R}(\mathbb{C}) = 2$.
+
+>[!theorem]
+>If $V$ is finite dimensional and a vector space over $F$, $W\subset V$ is a subspace and $B\subset W$ is a basis, then $B$ can be extended to a basis $C$ of $V$.
+>>[!proof]
+>>We prove this by induction on $\dim(V)-\dim(W)=k$. If $k=0$ we are done.
+>>Now if $k\ge 1$, $W$ is a strict subset of $V$, so there is some $v\in V\setminus W$. We add this to our set.
+>>$$\begin{align*}
+>>W\subsetneq \text{span}_{F}(W\cup \left\{v\right\})\subseteq V.
+>>\end{align*}$$
+>>Now we have a new basis with an extra element, so the dimension is increased. So $k$ is decreased and we may apply induction.
+
