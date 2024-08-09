@@ -89,13 +89,21 @@
 ## The Ratio Test
 >[!theorem]
 >Given $\sum\limits a_{n},\ a_{n}\ge 0$, let $\alpha = \lim_{n \longrightarrow \infty}\frac{a_{n+1}}{a_{n}}$. Then if $\alpha < 1$, the series converges, if $\alpha>1$ the series diverges, and if $\alpha=1$ then the test gives no information.
+>> [!proof]
+>> Suppose that $\alpha<1$. Fix $\alpha<\beta<1$. Since $\lim_{n \longrightarrow \infty}\frac{a_{n+1}}{a_{n}}=\alpha<\beta$, there exists some $N$ such that for $n>N$, $\frac{a_{n+1}}{a_{n}}<\beta$.
+>> So then,
+>> $$\begin{align*}
+>> a_{n+1} &< \beta a_{n}\\
+>> a_{n+2} &< \beta a_{n+1} < \beta^{2}a_{n}\\
+>> &\vdots\\
+>> a_{n+p} &< \beta^{p}a_{n}
+>> \end{align*}$$
+>> So, for $n>N$, $a_{n} < a_{N}\beta^{n-N} = (a_{N}\beta^{-N})\beta^{n}$. Then,
+>> $$\begin{align*}
+>> \sum\limits_{m=N}^{\infty}a_{N}\beta^{-N}\beta^{m} &= a_{N}\beta^{-N}\sum\limits_{m=N}^{\infty}\beta^{m}\text{ converges as }\beta<1.
+>> \end{align*}$$
+>> But $a_{n} < a_{N}\beta^{-N}\beta^{n}$, so $a_{n}$ also converges by comparison test.
+>> 
+>> Now suppose $\alpha>1$. We can follow a very similar argument to show that the series diverges (switch ordering of inequalities in previous argument).
+>> For $\alpha=1$, we may simply provide examples of both convergent and divergent series with $\alpha=1$.
 
-Suppose that $\alpha<1$. Fix $\alpha<\beta<1$. Since $\lim_{n \longrightarrow \infty}\frac{a_{n+1}}{a_{n}}=\alpha<\beta$, there exists some $N$ such that for $n>N$, $\frac{a_{n+1}}{a_{n}}<\beta$.
-So then,
-$$\begin{align*}
-a_{n+1} &< \beta a_{n}\\
-a_{n+2} &< \beta a_{n+1} < \beta^{2}a_{n}\\
-&\vdots\\
-a_{n+p} &< \beta^{p}a_{n}
-\end{align*}$$
-So, for $n>N$, $a_{n} < a_{N}\beta^{n-N}$
