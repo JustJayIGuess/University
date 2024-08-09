@@ -58,3 +58,12 @@ This is the total angular momentum around the centre of mass in the system.
 
 ![[Pasted image 20240809170226.png]]
 
+The phasor associated with either path is given by,
+$$\begin{align*}
+e^{\frac{iS_{0}}{\hbar}},
+\end{align*}$$
+so the overall probability amplitude is,
+$$\begin{align*}
+\varphi &= N\sum\limits_\text{paths} e^{\frac{iS}{\hbar}}\\
+&= N(e^{} + e^{})
+\end{align*}$$
