@@ -77,3 +77,25 @@
 >The main non-trivial convergent series we will look at is the geometric series with $x\in(-1,1)$.
 >Other than this, the most common way to show convergence is to compare to a known series (most commonly the geometric series).
 
+# Convergence Tests
+## The Root Test
+>[!theorem]
+>Given $\sum\limits a_{n}$, set,
+>$$\begin{align*}
+>\alpha &= \lim_{n \longrightarrow \infty}\sqrt[n]{a_{n}}.
+>\end{align*}$$
+>Then, if $\alpha < 1$, then the series converges. If $\alpha>1$, then the series diverges. If $\alpha=1$, then the test gives no information.
+
+## The Ratio Test
+>[!theorem]
+>Given $\sum\limits a_{n},\ a_{n}\ge 0$, let $\alpha = \lim_{n \longrightarrow \infty}\frac{a_{n+1}}{a_{n}}$. Then if $\alpha < 1$, the series converges, if $\alpha>1$ the series diverges, and if $\alpha=1$ then the test gives no information.
+
+Suppose that $\alpha<1$. Fix $\alpha<\beta<1$. Since $\lim_{n \longrightarrow \infty}\frac{a_{n+1}}{a_{n}}=\alpha<\beta$, there exists some $N$ such that for $n>N$, $\frac{a_{n+1}}{a_{n}}<\beta$.
+So then,
+$$\begin{align*}
+a_{n+1} &< \beta a_{n}\\
+a_{n+2} &< \beta a_{n+1} < \beta^{2}a_{n}\\
+&\vdots\\
+a_{n+p} &< \beta^{p}a_{n}
+\end{align*}$$
+So, for $n>N$, $a_{n} < a_{N}\beta^{n-N}$
