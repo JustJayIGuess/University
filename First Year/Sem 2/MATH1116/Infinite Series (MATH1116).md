@@ -128,5 +128,26 @@
 >We will apply the ratio test.
 >$$\begin{align*}
 >\alpha &= \lim_{n \longrightarrow \infty} \frac{\frac{r^{n+1}}{(n+1)!}}{\frac{r^{n}}{n!}}\\
-&= \lim_{n \longrightarrow \infty}
+&= \lim_{n \longrightarrow \infty} \frac{r}{n+1}\\
+>&= 0.
+>\end{align*}$$
+>So this series converges for all $r\ge 0$.
+>Specifically, this converges to $e^{r}$.
+
+>[!remark]
+>It is often useful to think of these sorts of series as functions of some parameter involved.
+
+>[!def]
+>A series is *absolutely convergent* if,
+>$$\begin{align*}
+>\sum\limits_{n=0}^{\infty}|a_{n}|,
+>\end{align*}$$
+>converges.
+
+>[!theorem]
+>If a series in absolutely convergent, then it is also convergent.
+
+Consider $\left|\sum\limits_{n=0}^{k}a_{n}\right|$. Then by the triangle inequality,
+$$\begin{align*}
+0\le \left|\sum\limits_{n=0}^{k}\right|\le\sum\limits_{n=0}^{k}
 \end{align*}$$
