@@ -65,5 +65,15 @@ e^{\frac{iS_{0}}{\hbar}},
 so the overall probability amplitude is,
 $$\begin{align*}
 \varphi &= N\sum\limits_\text{paths} e^{\frac{iS}{\hbar}}\\
-&= N(e^{} + e^{})
+&= N\left(e^{\frac{iS_{0}}{\hbar}} + e^{\frac{iS_{0}}{\hbar}}\right)\\
+&= 2Ne^{\frac{iS_{0}}{\hbar}}.
+\end{align*}$$
+The two phasors constructively interfered as they were identical.
+
+![[Pasted image 20240809171724.png]]
+
+The probability amplitude is now given by the following, as the two phasors are no longer identical.
+$$\begin{align*}
+\varphi &= N(e^{i\frac{S_{0}+\delta S}{\hbar}} + e^{i\frac{S_{0}-\delta S}{\hbar}})\\
+&= Ne^{\frac{iS_{0}}{\hbar}}(e^{\frac{i\delta S}{\hbar}} + e^{\frac{-i\delta S}{\hbar}})
 \end{align*}$$
