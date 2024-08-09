@@ -31,5 +31,30 @@ K &= m(\frac{1}{2}|\dot{x}|)^2\\
 \end{align*}$$
 If we now replace $x$ with the equivalent separation vector $r$ in polar form, recalling that $\dot{x}^{2} = \dot{r}^{2} + r^{2}\dot{\theta}^{2}$, we have,
 $$\begin{align*}
-K &= \frac{1}{4}m
+K &= \frac{1}{4}m(\dot{r}^{2} + r^{2}\dot{\theta}^{2}).
 \end{align*}$$
+Electric potential of point charges is given by,
+$$\begin{align*}
+V &= k\frac{q_{1}q_{2}}{r}.
+\end{align*}$$
+Taking $q_1,q_2$ to both be the charge on an electron, $e$, we then  have,
+$$\begin{align*}
+V &= \frac{ke^{2}}{r}.
+\end{align*}$$
+The Lagrangian is defined as $L = K-V$, so we finally have,
+$$\begin{align*}
+L &= K-V\\
+&= \frac{1}{4}m(\dot{r}^{2} + r^{2}\dot{\theta}^{2}) - \frac{ke^{2}}{r}.
+\end{align*}$$
+
+![[Pasted image 20240809165852.png]]
+
+The expression for the Lagrangian given in the previous question has no dependence on $\theta$, i.e., $\frac{\partial L}{\partial \theta} = 0$, so we have a canonical momentum $p_{\theta}$ given by,
+$$\begin{align*}
+p_{\theta} &= \frac{\partial L}{\partial \dot{\theta}}\\
+&= \frac{1}{2}mr^{2}\dot{\theta}.
+\end{align*}$$
+This is the total angular momentum around the centre of mass in the system.
+
+![[Pasted image 20240809170226.png]]
+
