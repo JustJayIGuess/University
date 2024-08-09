@@ -1,11 +1,10 @@
 >Jay Johnston, u7922560
 
->[!question] Question 1.
->![[Pasted image 20240809164531.png]]
+![[Pasted image 20240809164531.png]]
 
 ![[Pasted image 20240809164554.png]]
 
-First, observe that the total kinetic energy of the system with respect to the centre of mass is,
+First, note that the total kinetic energy of the system with respect to the centre of mass is,
 $$
 K = \frac{1}{2}m(\dot{x_{1}}^{2} + \dot{x_{2}}^{2}),
 $$
@@ -90,8 +89,10 @@ as $|e^{\frac{iS_{0}}{\hbar}}|=1$. So then the number of detected electrons is p
 
 ![[Pasted image 20240809173251.png]]
 
-The first destructive interference occurs when $\cos^{2}(\frac{\delta S}{\hbar})=0\Leftrightarrow \cos\left(\frac{\delta S}{\hbar}\right)= 0.$ The first time this happens is when $\frac{\delta S}{\hbar} = \frac{\pi}{2}$;
+The first destructive interference occurs when $\cos^{2}(\frac{\delta S}{\hbar})=0\Leftrightarrow \cos\left(\frac{\delta S}{\hbar}\right)= 0.$ The first time this happens is when $\frac{\delta S}{\hbar} = \frac{\pi}{2};$
 $$\begin{align*}
 \frac{\delta S}{\hbar} &= \frac{\pi}{2}\\
-
+\delta S &= \frac{\pi}{2}\hbar\\
+&= \frac{\pi}{2}(1.055\times10^{−34})\\
+&= 1.66\times10^{-34}\text{ J s}.
 \end{align*}$$
