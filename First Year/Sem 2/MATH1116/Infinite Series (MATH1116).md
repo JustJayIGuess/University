@@ -153,3 +153,10 @@
 >> \end{align*}$$
 >> Then by comparison test, if the right term converges, the original series must also converge.
 
+>[!def]
+>If a series converges, but absolutely diverges, we say that the series *conditionally converges*.
+
+>[!theorem]
+>*Leibnitz's theorem for alternating series*
+>If we have an alternating sum $\sum\limits_{n=1}^{\infty} (-1)^{n}a_{n}$ with monotonically decreasing terms, and $\lim_{n \longrightarrow \infty} a_{n} = 0$, then the series converges.
+
