@@ -75,5 +75,23 @@ The two phasors constructively interfered as they were identical.
 The probability amplitude is now given by the following, as the two phasors are no longer identical.
 $$\begin{align*}
 \varphi &= N(e^{i\frac{S_{0}+\delta S}{\hbar}} + e^{i\frac{S_{0}-\delta S}{\hbar}})\\
-&= Ne^{\frac{iS_{0}}{\hbar}}(e^{\frac{i\delta S}{\hbar}} + e^{\frac{-i\delta S}{\hbar}})
+&= Ne^{\frac{iS_{0}}{\hbar}}(e^{\frac{i\delta S}{\hbar}} + e^{\frac{-i\delta S}{\hbar}}).
+\end{align*}$$
+Now recall the identity that $2\cos\theta = e^{i\theta} + e^{-i\theta}$, allowing the above to be simplified to,
+$$\begin{align*}
+\varphi &= Ne^{\frac{iS_{0}}{\hbar}}\cos\left(\frac{\delta S}{\hbar}\right).
+\end{align*}$$
+Then the probability is given by,
+$$\begin{align*}
+P &= |\varphi|^{2}\\
+&= N^{2}\cos^{2}\left(\frac{\delta S}{\hbar}\right),
+\end{align*}$$
+as $|e^{\frac{iS_{0}}{\hbar}}|=1$. So then the number of detected electrons is proportional to $\cos^{2}\left(\frac{\delta S}{\hbar}\right)$.
+
+![[Pasted image 20240809173251.png]]
+
+The first destructive interference occurs when $\cos^{2}(\frac{\delta S}{\hbar})=0\Leftrightarrow \cos\left(\frac{\delta S}{\hbar}\right)= 0.$ The first time this happens is when $\frac{\delta S}{\hbar} = \frac{\pi}{2}$;
+$$\begin{align*}
+\frac{\delta S}{\hbar} &= \frac{\pi}{2}\\
+
 \end{align*}$$
