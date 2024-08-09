@@ -1,4 +1,3 @@
-# Relations
 Let $S$ be a set.
 >[!def]
 >A (binary) *relation* on $S$ is simply a subset $R\subseteq S\times S$, i.e., a set of ordered pairs $(s_{1}, s_{2})$.
