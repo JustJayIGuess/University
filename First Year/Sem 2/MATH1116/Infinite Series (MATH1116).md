@@ -146,8 +146,10 @@
 
 >[!theorem]
 >If a series in absolutely convergent, then it is also convergent.
+>>[!proof]
+>> Consider $\left|\sum\limits_{n=0}^{k}a_{n}\right|$. Then by the triangle inequality,
+>> $$\begin{align*}
+>> 0\le \left|\sum\limits_{n=0}^{k}a_{n}\right|\le\sum\limits_{n=0}^{k}|a_{n}|.
+>> \end{align*}$$
+>> Then by comparison test, if the right term converges, the original series must also converge.
 
-Consider $\left|\sum\limits_{n=0}^{k}a_{n}\right|$. Then by the triangle inequality,
-$$\begin{align*}
-0\le \left|\sum\limits_{n=0}^{k}\right|\le\sum\limits_{n=0}^{k}
-\end{align*}$$
