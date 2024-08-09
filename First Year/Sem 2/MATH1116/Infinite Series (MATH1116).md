@@ -107,3 +107,26 @@
 >> Now suppose $\alpha>1$. We can follow a very similar argument to show that the series diverges (switch ordering of inequalities in previous argument).
 >> For $\alpha=1$, we may simply provide examples of both convergent and divergent series with $\alpha=1$.
 
+>[!example]
+>For which $r\in \mathbb{R},\ r\ge 0$ does the following converge?
+>$$\begin{align*}
+>\sum\limits_{n=1}^{\infty} \frac{r^{n}}{n}.
+>\end{align*}$$
+>This certainly cannot converge if $|r|>1$.
+>Now apply the ratio test.
+>$a_{n} = \frac{r^{n}}{n}$.
+>$$\begin{align*}
+>\alpha &= \lim_{n \longrightarrow \infty} \frac{a_{n+1}}{a_{n}}\\
+>&= \lim_{n \longrightarrow \infty}\frac{ \frac{r^{n+1}}{n+1} }{ \frac{r^{n}}{n} }\\
+>&= \lim_{n \longrightarrow \infty}\frac{rn}{n+1}\\
+>&= r.
+>\end{align*}$$
+>So the series converges when $r<1$. When $r=1$ we have the harmonic series, so the series diverges.
+
+>[!example]
+>For which $r\ge 0$ does $\sum\limits_{n=0}^{\infty} \frac{r^{n}}{n!}$ converge?
+>We will apply the ratio test.
+>$$\begin{align*}
+>\alpha &= \lim_{n \longrightarrow \infty} \frac{\frac{r^{n+1}}{(n+1)!}}{\frac{r^{n}}{n!}}\\
+&= \lim_{n \longrightarrow \infty}
+\end{align*}$$
