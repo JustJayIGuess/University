@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Year/Sem 2/MATH1116/Infinite Series (MATH1116).md",
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca01a0638f2b7837",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Year/Sem 2/MATH1116/Infinite Series (MATH1116).md",
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First Year/Sem 2/MATH1116/Infinite Series (MATH1116).md",
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First Year/Sem 2/MATH1116/Infinite Series (MATH1116).md"
+                "file": "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 2.md"
               }
             }
           },
@@ -165,22 +178,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6d23b46ced2e08a0",
+  "active": "ca01a0638f2b7837",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-08-09 16.24.28.excalidraw.md",
+    "First Year/Sem 2/PHYS1201/attachments/Pasted image 20240809164554.png",
+    "First Year/Sem 2/PHYS1201/attachments/Pasted image 20240809164531.png",
+    "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
+    "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 2.md",
+    "First Year/Sem 2/PHYS1201/PHYS1201.md",
     "First Year/Sem 2/MATH1116/Infinite Series (MATH1116).md",
+    "Excalidraw/Drawing 2024-08-09 16.24.28.excalidraw.md",
     "First Year/Sem 2/MATH1116/MATH1116.md",
     "First Year/Sem 2/Sem 2.md",
     "First Year/Sem 1/MATH1115/MATH1115.md",
     "First Year/Sem 1/MATH2222/Equivalence Relations.md",
     "First Year/Sem 1/MATH2222/MATH2222.md",
     "First Year/Sem 1/Sem 1.md",
-    "First Year/Sem 2/PHYS1201/PHYS1201.md",
     "conflict-files-obsidian-git.md",
     "First Year/Sem 2/PHYS1201/attachments/Pasted image 20240730191820.png",
     "First Year/Sem 2/PHYS1201/attachments/Pasted image 20240730133303.png",
     "First Year/Sem 2/PHYS1201/attachments",
-    "First Year/Sem 2/PHYS1201/PHYS1201 Assignment 1.md",
     "First Year/Sem 2/MATH1116/Infinite Sequences (MATH1116).md",
     "First Year/Sem 2/MATH1116/Infinite Sequences (MATH1116.md",
     "First Year/Sem 2/COMP1140/The Java Call Stack.md",
@@ -195,8 +211,6 @@
     "First Year/Sem 2/MATH1116/Polynomials as Formal Objects.md",
     "First Year/Sem 1/MATH1115/Infinite Sequences.md",
     "First Year/Sem 2/MATH1116/Fields and Vector Spaces.md",
-    "First Year/Sem 2/MATH1116/Vector Spaces (MATH1116).md",
-    "First Year/Sem 2/PHYS1201/The Euler-Lagrange Equation.md",
     "First Year/Sem 2/MATH1116",
     "First Year/Sem 2/PHYS1201",
     "First Year/Sem 2/COMP1140",
@@ -216,7 +230,6 @@
     "Physics/Notes/3.2 Electromagnetism/attachments/transformers_PNG76.png",
     "Physics/Notes/3.2 Electromagnetism/attachments/Pasted image 20231011101306.png",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
-    "Physics/Notes/3.2 Electromagnetism/attachments/Pasted image 20231003185029.png",
     "Applications/Breakthrough Challenge Planning.canvas",
     "Japanese/Exam Response Planning.canvas",
     "Chemistry/Assignments/Chem Research Investigation Planning.canvas"
